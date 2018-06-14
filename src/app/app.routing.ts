@@ -6,6 +6,10 @@ import { AccueilComponent } from './Component/Conseil/Accueil.component';
 import { Devis1Component } from './Component/DevisComparatif/Devis1.component';
 import { Devis2Component } from './Component/DevisComparatif/Devis2.component';
 import { Devis3Component } from './Component/DevisComparatif/Devis3.component';
+import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
+import {ResiliationComponent} from "./Component/DevisComparatif/Resiliation.component";
+
+
 
 const appRoutes: Routes = [
     {
@@ -24,6 +28,16 @@ const appRoutes: Routes = [
         path: 'devisPJcomparatif',
         component: Devis3Component
     },
+    {
+        path: 'paiement',
+        component: Devis6Component
+    },
+    {
+    path: 'resiliation',
+    component: ResiliationComponent
+    },
+
+
 
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
