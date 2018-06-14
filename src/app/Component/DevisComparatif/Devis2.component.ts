@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     templateUrl: '../../View/DevisComparatif/Devis2.component.html',
     styleUrls: ['../../View/DevisComparatif/Devis2.component.css']
 })
-export class Devis1Component {
+export class Devis2Component {
 
 
     constructor() {

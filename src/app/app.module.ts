@@ -8,9 +8,11 @@ import { AccueilComponent } from './Component/Conseil/Accueil.component';
 import { headerComponent } from './header.component';
 import { footerComponent } from './footer.component';
 import { Devis1Component } from './Component/DevisComparatif/Devis1.component';
+import { Devis2Component } from './Component/DevisComparatif/Devis2.component';
+import { Devis3Component } from './Component/DevisComparatif/Devis3.component';
 @NgModule({
   declarations: [
-    AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component
+    AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
   ],
   imports: [
     BrowserModule, FormsModule, routing
