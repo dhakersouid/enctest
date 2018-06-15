@@ -12,10 +12,10 @@ import { Devis2Component } from './Component/DevisComparatif/Devis2.component';
 import { Devis3Component } from './Component/DevisComparatif/Devis3.component';
 import { Devis4Component } from './Component/DevisComparatif/Devis4.component';
 import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTarif.component';
-import { Devis6Component } from "./Component/DevisComparatif/Devis6.component";
-import {ResiliationComponent} from "./Component/DevisComparatif/Resiliation.component";
-import {FelicitationmdploginECComponent} from "./Component/DevisComparatif/FelicitationmdploginEC.component";
-import {LoginespaceclientComponent} from "./Component/DevisComparatif/Loginespaceclient.component";
+import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
+import {ResiliationComponent} from './Component/DevisComparatif/Resiliation.component';
+import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
+import {LoginespaceclientComponent} from './Component/DevisComparatif/Loginespaceclient.component';
 
 
 
