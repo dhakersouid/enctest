@@ -19,13 +19,19 @@ import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Fel
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
 import {LoginespaceclientComponent } from './Component/DevisComparatif/loginespaceclient.component';
 import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alertedoublegarantie.component';
+import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
+import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
+import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
+
 
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
     , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent,
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,LoginespaceclientComponent,
-    AlertedoublegarantieComponent
+    AlertedoublegarantieComponent,
+    FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component, LoginespaceclientComponent,
+    MdpoublieComponent, ResiliationlaposteComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing

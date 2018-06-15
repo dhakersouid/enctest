@@ -1,0 +1,21 @@
+#cssTable td 
+{
+    text-align:left; 
+    vertical-align:left;
+}
+input{
+	width : 100%;
+	line-height: 2em;
+	border: 0.5px solid #94a8cd;
+}
+
+.boxed {
+  border: 0.5px solid #94a8cd;
+  color: white;
+}
+.stylebleu {
+	font-family:Lato; font-size:15; font-weight:Bold; color:#94a8cd; text-align:left;
+}
+.stylemove {
+	font-family:Lato Bold; font-size:15; font-weight:Bold; color:#b626c3; text-align:left;
+}
