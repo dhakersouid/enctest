@@ -79,6 +79,10 @@ const appRoutes: Routes = [
         path: 'paiementlaposte',
         component: ResiliationlaposteComponent
     },
+    {
+        path: 'alerte',
+        component: AlertedoublegarantieComponent
+    },
 
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
