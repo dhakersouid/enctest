@@ -10,8 +10,12 @@ import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
 import { ResiliationComponent } from './Component/DevisComparatif/Resiliation.component';
 import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTarif.component';
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
+<<<<<<< HEAD
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 
+=======
+import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
+>>>>>>> ea3946c8fe27a28d8b12afdcaa56e213714d7de8
 const appRoutes: Routes = [
     {
         path: '',
@@ -48,11 +52,18 @@ const appRoutes: Routes = [
     {
         path: 'devisPJprofil',
         component: Devis4Component
+    }, 
+    {
+        path: 'devisPJproposition',
+        component: Devis5Component
     },
+<<<<<<< HEAD
     {
     path: 'souscription',
     component: FelicitationsouscriptionComponent
     },
 
+=======
+>>>>>>> ea3946c8fe27a28d8b12afdcaa56e213714d7de8
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

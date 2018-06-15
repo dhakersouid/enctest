@@ -11,23 +11,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Resiliation.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="167" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="152" lean-forward="false" selection-start-line="23" selection-start-column="152" selection-end-line="23" selection-end-column="152" />
+            <state relative-caret-position="588">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#1062#1171#0" expanded="true" />
+                <element signature="e#1295#1404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Felicitationsouscription.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Felicitationsouscription.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
@@ -101,6 +93,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Devis5.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Devis5.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Devis5.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Devis5.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Felicitationsouscription.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,22 +135,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resiliation.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Resiliation.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="112" lean-forward="false" selection-start-line="12" selection-start-column="112" selection-end-line="12" selection-end-column="112" />
-              <folding />
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -339,12 +345,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528966350379</updated>
       <workItem from="1528966352112" duration="15481000" />
-      <workItem from="1529047689722" duration="15618000" />
+      <workItem from="1529047689722" duration="15859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31099000" />
+    <option name="totallyTimeSpent" value="31340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -394,7 +400,6 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="false" />
             <element signature="n#style#0;n#legend#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
             <element signature="n#style#0;n#b#0;n#legend#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
             <element signature="n#style#0;n#label#1;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
             <element signature="n#style#0;n#label#2;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
             <element signature="n#style#0;n#label#3;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
@@ -743,9 +748,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="167" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="681">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="166" selection-start-column="24" selection-end-line="167" selection-end-column="6" />
+          <folding>
+            <marker date="1529067515067" expanded="false" signature="981:995" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -762,24 +769,6 @@
         <state relative-caret-position="168">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="112" lean-forward="false" selection-start-line="12" selection-start-column="112" selection-end-line="12" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="152" lean-forward="false" selection-start-line="23" selection-start-column="152" selection-end-line="23" selection-end-column="152" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,6 +836,46 @@
             <element signature="n#style#0;n#h3#1;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Devis5.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Devis5.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#1062#1171#0" expanded="true" />
+            <element signature="e#1295#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
