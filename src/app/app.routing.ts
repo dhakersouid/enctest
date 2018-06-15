@@ -55,8 +55,8 @@ const appRoutes: Routes = [
         component: Devis5Component
     },
     {
-    path: 'souscription',
-    component: FelicitationsouscriptionComponent
+        path: 'souscription',
+        component: FelicitationsouscriptionComponent
     },
 
 ];
