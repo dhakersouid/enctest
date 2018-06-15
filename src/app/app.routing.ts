@@ -9,6 +9,7 @@ import { Devis4Component } from './Component/DevisComparatif/Devis4.component';
 import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
 import { ResiliationComponent } from './Component/DevisComparatif/Resiliation.component';
 import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTarif.component';
+import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 
 const appRoutes: Routes = [
     {
