@@ -22,6 +22,7 @@ import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alerted
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
+import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
 
 
 @NgModule({
@@ -31,7 +32,7 @@ import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resilia
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,LoginespaceclientComponent,
     AlertedoublegarantieComponent,
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component, LoginespaceclientComponent,
-    MdpoublieComponent, ResiliationlaposteComponent
+    MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing

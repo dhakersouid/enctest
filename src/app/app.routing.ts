@@ -17,6 +17,7 @@ import {AlertedoublegarantieComponent} from "./Component/DevisComparatif/Alerted
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
+import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
 
 
 const appRoutes: Routes = [
@@ -80,8 +81,13 @@ const appRoutes: Routes = [
         component: ResiliationlaposteComponent
     },
     {
+
         path: 'alerte',
         component: AlertedoublegarantieComponent
+
+        path: 'espaceclient',
+        component: EspaceClientComponent
+
     },
 
 ];
