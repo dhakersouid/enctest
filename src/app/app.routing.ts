@@ -12,10 +12,13 @@ import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTari
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
+import {LoginespaceclientComponent} from "./Component/DevisComparatif/loginespaceclient.component";
+import {AlertedoublegarantieComponent} from "./Component/DevisComparatif/Alertedoublegarantie.component";
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
+
 
 const appRoutes: Routes = [
     {
@@ -67,6 +70,9 @@ const appRoutes: Routes = [
         component: LoginespaceclientComponent
     },
     {
+        path: 'alerte',
+        component: AlertedoublegarantieComponent
+
         path: 'ECpwdoublie',
         component: MdpoublieComponent
     },
