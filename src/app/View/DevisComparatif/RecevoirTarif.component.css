@@ -1,0 +1,19 @@
+.boxed {
+  border: 0.5px solid #9fc5f8 ;
+  border-width:0.5px;
+}
+
+.stylebleu {
+	font-family:Lato Bold; font-size:15px; font-weight:bold; color:#94a8cd;
+}
+.stylemove {
+	font-family:Lato Bold; font-size:15px; font-weight:Bold; color:#b626c3; text-align:left;
+}
+
+input{
+	width:100%;
+}
+fieldset {
+	color:#6a89b9;
+	border-width:0.5px; border-color:#9fc5f8;
+}

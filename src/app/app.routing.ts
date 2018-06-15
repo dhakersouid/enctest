@@ -6,10 +6,10 @@ import { AccueilComponent } from './Component/Conseil/Accueil.component';
 import { Devis1Component } from './Component/DevisComparatif/Devis1.component';
 import { Devis2Component } from './Component/DevisComparatif/Devis2.component';
 import { Devis3Component } from './Component/DevisComparatif/Devis3.component';
+import { Devis4Component } from './Component/DevisComparatif/Devis4.component';
 import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
-import {ResiliationComponent} from "./Component/DevisComparatif/Resiliation.component";
-
-
+import { ResiliationComponent } from './Component/DevisComparatif/Resiliation.component';
+import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTarif.component';
 
 const appRoutes: Routes = [
     {
@@ -36,8 +36,14 @@ const appRoutes: Routes = [
     path: 'resiliation',
     component: ResiliationComponent
     },
-
-
+    {
+        path: 'devisPJrecevoirTarif',
+        component: RecevoirTarifComponent
+    },
+    {
+        path: 'devisPJprofil',
+        component: Devis4Component
+    },
 
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

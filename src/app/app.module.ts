@@ -12,14 +12,14 @@ import { Devis2Component } from './Component/DevisComparatif/Devis2.component';
 import { Devis3Component } from './Component/DevisComparatif/Devis3.component';
 import { Devis4Component } from './Component/DevisComparatif/Devis4.component';
 import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTarif.component';
-import { Devis6Component } from "./Component/DevisComparatif/Devis6.component";
-import {ResiliationComponent} from "./Component/DevisComparatif/Resiliation.component";
+import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
+import {ResiliationComponent} from './Component/DevisComparatif/Resiliation.component';
 
 
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
-    , RecevoirTarifComponent, Devis4Component,Devis6Component, ResiliationComponent
+    , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing
