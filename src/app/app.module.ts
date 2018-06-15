@@ -17,12 +17,15 @@ import {ResiliationComponent} from './Component/DevisComparatif/Resiliation.comp
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
+import {LoginespaceclientComponent } from './Component/DevisComparatif/loginespaceclient.component';
+import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alertedoublegarantie.component';
 
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
     , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent,
-    FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component
+    FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,LoginespaceclientComponent,
+    AlertedoublegarantieComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing

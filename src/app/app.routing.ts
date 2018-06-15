@@ -12,6 +12,8 @@ import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTari
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
+import {LoginespaceclientComponent} from "./Component/DevisComparatif/loginespaceclient.component";
+import {AlertedoublegarantieComponent} from "./Component/DevisComparatif/Alertedoublegarantie.component";
 
 const appRoutes: Routes = [
     {
@@ -57,6 +59,14 @@ const appRoutes: Routes = [
     {
         path: 'souscription',
         component: FelicitationsouscriptionComponent
+    },
+    {
+        path: 'login',
+        component: LoginespaceclientComponent
+    },
+    {
+        path: 'alerte',
+        component: AlertedoublegarantieComponent
     },
 
 ];
