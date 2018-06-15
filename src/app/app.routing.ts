@@ -10,6 +10,7 @@ import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
 import { ResiliationComponent } from './Component/DevisComparatif/Resiliation.component';
 import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTarif.component';
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
+import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 
 const appRoutes: Routes = [
     {
@@ -47,6 +48,10 @@ const appRoutes: Routes = [
     {
         path: 'devisPJprofil',
         component: Devis4Component
+    },
+    {
+    path: 'souscription',
+    component: FelicitationsouscriptionComponent
     },
 
 ];

@@ -11,112 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Loginespaceclient.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.html">
+      <file leaf-file-name="Resiliation.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#2;n#tr#1;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#td#2;n#tr#1;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FelicitationmdploginEC.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/FelicitationmdploginEC.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#2;n#tr#1;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#td#2;n#tr#1;n#table#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Loginespaceclient.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="87" column="1" lean-forward="false" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+            <state relative-caret-position="597">
+              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="167" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginespaceclient.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/loginespaceclient.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecevoirTarif.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/RecevoirTarif.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FelicitationmdploginEC.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/FelicitationmdploginEC.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="483">
+              <caret line="23" column="152" lean-forward="false" selection-start-line="23" selection-start-column="152" selection-end-line="23" selection-end-column="152" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -124,11 +33,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <file leaf-file-name="Resiliation.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="30" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Devis6.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Devis6.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#fieldset#0;n#div#4;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Felicitationsouscription.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Felicitationsouscription.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Felicitationsouscription.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#1;n#p#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#p#0;n#div#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#td#1;n#tr#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#1;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Felicitationsouscription.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loginespaceclient.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="77" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resiliation.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Resiliation.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,20 +134,8 @@
       <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resiliation.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Resiliation.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="12" column="112" lean-forward="false" selection-start-line="12" selection-start-column="112" selection-end-line="12" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -161,9 +146,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -197,7 +182,6 @@
         <option value="$PROJECT_DIR$/app/View/DevisComparatif/FelicitationmdploginEC.component.html" />
         <option value="$PROJECT_DIR$/app/View/DevisComparatif/Devis6.component.css" />
         <option value="$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.css" />
-        <option value="$PROJECT_DIR$/app/View/DevisComparatif/Devis6.component.html" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/app/View/DevisComparatif/LoginEC.component.css" />
         <option value="$PROJECT_DIR$/app/Component/DevisComparatif/loginEC.component.ts" />
@@ -205,8 +189,12 @@
         <option value="$PROJECT_DIR$/app/Component/DevisComparatif/loginespaceclient.component.ts" />
         <option value="$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.css" />
         <option value="$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.html" />
+        <option value="$PROJECT_DIR$/app/Component/DevisComparatif/Felicitationsouscription.component.ts" />
         <option value="$PROJECT_DIR$/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.css" />
+        <option value="$PROJECT_DIR$/app/View/DevisComparatif/Devis6.component.html" />
+        <option value="$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.html" />
       </list>
     </option>
   </component>
@@ -285,7 +273,15 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DevisComparatif" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -309,6 +305,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Said\Documents\GitHub\enctest\src\assets\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Said\Documents\GitHub\enctest\src\app\Component\DevisComparatif" />
       <recent name="C:\Users\Said\Documents\GitHub\enctest\src\app\View\DevisComparatif" />
@@ -340,15 +339,16 @@
       <option name="presentableId" value="Default" />
       <updated>1528966350379</updated>
       <workItem from="1528966352112" duration="15481000" />
-      <workItem from="1529047689722" duration="10743000" />
+      <workItem from="1529047689722" duration="15618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26224000" />
+    <option name="totallyTimeSpent" value="31099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -356,7 +356,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23802084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5711061" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -508,6 +508,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -536,76 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#legend#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#1;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#2;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#3;n#div#0;n#fieldset#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#legend#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#h4#0;n#div#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#2;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#3;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#3;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#4;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#4;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#4;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#h4#0;n#div#0;n#td#3;n#tr#4;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#5;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#5;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#5;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#6;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#6;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#6;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#6;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#7;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#7;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#td#0;n#tr#8;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#label#0;n#td#0;n#tr#8;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#8;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#8;n#table#0;n#td#0;n#fieldset#0;n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#3;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#6;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#div#6;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#div#6;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#7;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#7;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,32 +644,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Devis6.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="121" column="53" lean-forward="true" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#div#3;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#div#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#fieldset#0;n#div#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#4;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="762">
           <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -755,14 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Resiliation.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -812,14 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="87" column="1" lean-forward="false" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -848,22 +741,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="167" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Resiliation.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Component/DevisComparatif/Felicitationsouscription.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="12" column="112" lean-forward="false" selection-start-line="12" selection-start-column="112" selection-end-line="12" selection-end-column="112" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="23" column="152" lean-forward="false" selection-start-line="23" selection-start-column="152" selection-end-line="23" selection-end-column="152" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Resiliation.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Loginespaceclient.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="77" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Devis6.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#fieldset#0;n#div#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/DevisComparatif/Felicitationsouscription.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#p#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#td#1;n#tr#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#1;n#table#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
