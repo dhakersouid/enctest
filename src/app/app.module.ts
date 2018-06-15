@@ -14,23 +14,15 @@ import { Devis4Component } from './Component/DevisComparatif/Devis4.component';
 import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTarif.component';
 import { Devis6Component } from './Component/DevisComparatif/Devis6.component';
 import {ResiliationComponent} from './Component/DevisComparatif/Resiliation.component';
-<<<<<<< HEAD
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
-
-=======
 import {FelicitationmdploginECComponent} from "./Component/DevisComparatif/FelicitationmdploginEC.component";
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
->>>>>>> ea3946c8fe27a28d8b12afdcaa56e213714d7de8
 
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
-<<<<<<< HEAD
-    , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent, FelicitationmdploginECComponent, FelicitationsouscriptionComponent
-=======
-    , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent, FelicitationmdploginECComponent, Devis5Component
->>>>>>> ea3946c8fe27a28d8b12afdcaa56e213714d7de8
+    , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent, FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component
   ],
   imports: [
     BrowserModule, FormsModule, routing
