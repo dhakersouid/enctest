@@ -2,7 +2,6 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AccueilComponent } from './Component/Conseil/Accueil.component';
-
 import { Devis1Component } from './Component/DevisComparatif/Devis1.component';
 import { Devis2Component } from './Component/DevisComparatif/Devis2.component';
 import { Devis3Component } from './Component/DevisComparatif/Devis3.component';
@@ -33,8 +32,12 @@ const appRoutes: Routes = [
         component: Devis6Component
     },
     {
-    path: 'resiliation',
-    component: ResiliationComponent
+        path: 'resiliation',
+        component: ResiliationComponent
+    },
+    {
+        path: 'felicitationmdplogin',
+        component: FelicitationmdploginECComponent
     },
     {
         path: 'devisPJrecevoirTarif',
