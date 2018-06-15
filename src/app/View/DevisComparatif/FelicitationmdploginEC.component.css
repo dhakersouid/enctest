@@ -1,10 +1,4 @@
 
-html, body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color: #94a8cd;
-}
 /* Customize the label (the container) */
 .container {
   display: block;
@@ -33,19 +27,17 @@ html, body {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color:white;
-  border: 3px solid #b626c3;
-  border-radius: 20%;
+  background-color:#b626c3;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: white;
+  background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: white;
+  background-color: #b626c3;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -62,13 +54,35 @@ html, body {
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 6.5px;
-  top: 2px;
-  width: 10px;
-  height: 13px;
-  border: solid #b626c3;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.boxed {
+  border: 0.5px solid #9fc5f8 ;
+  border-width:0.5px;
+}
+
+.stylebleu {
+  font-family:Lato Bold; font-size:15px; font-weight:bold; color:#94a8cd;
+}
+.stylemove {
+  font-family:Lato Bold; font-size:15px; font-weight:Bold; color:#b626c3; text-align:left;
+}
+div{
+  background-color: white;
+}
+input{
+  width:100%;
+}
+fieldset {
+  color:#6a89b9;
+  border-width:0.5px; border-color:#9fc5f8;
 }

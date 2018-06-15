@@ -26,17 +26,19 @@
   left: 0;
   height: 25px;
   width: 25px;
-  background-color:#b626c3;
+  background-color:white;
+  border: 3px solid #b626c3;
+  border-radius: 20%;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: white;
 }
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #b626c3;
+  background-color: white;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -53,16 +55,17 @@
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
+  left: 6.5px;
+  top: 2px;
+  width: 10px;
+  height: 13px;
+  border: solid #b626c3;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .boxed {
   border: 0.5px solid #9fc5f8 ;
   border-width:0.5px;
