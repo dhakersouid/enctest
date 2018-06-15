@@ -15,6 +15,7 @@ import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
+import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
 
 const appRoutes: Routes = [
     {
@@ -72,6 +73,10 @@ const appRoutes: Routes = [
     {
         path: 'paiementlaposte',
         component: ResiliationlaposteComponent
+    },
+    {
+        path: 'espaceclient',
+        component: EspaceClientComponent
     },
 
 ];
