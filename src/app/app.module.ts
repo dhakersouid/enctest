@@ -19,7 +19,6 @@ import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Fel
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
 import {LoginespaceclientComponent } from './Component/DevisComparatif/loginespaceclient.component';
 import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alertedoublegarantie.component';
-import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
@@ -31,7 +30,7 @@ import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.com
     , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent,
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,LoginespaceclientComponent,
     AlertedoublegarantieComponent,
-    FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component, LoginespaceclientComponent,
+    FelicitationmdploginECComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent
   ],
   imports: [

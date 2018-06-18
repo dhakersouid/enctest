@@ -1,6 +1,5 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
 import { AccueilComponent } from './Component/Conseil/Accueil.component';
 import { Devis1Component } from './Component/DevisComparatif/Devis1.component';
 import { Devis2Component } from './Component/DevisComparatif/Devis2.component';
@@ -12,7 +11,6 @@ import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTari
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
-import {LoginespaceclientComponent} from "./Component/DevisComparatif/loginespaceclient.component";
 import {AlertedoublegarantieComponent} from "./Component/DevisComparatif/Alertedoublegarantie.component";
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
@@ -70,9 +68,10 @@ const appRoutes: Routes = [
         component: LoginespaceclientComponent
     },
     {
-        path: 'alerte',
-        component: AlertedoublegarantieComponent
-
+    path: 'alerte',
+    component: AlertedoublegarantieComponent
+    },
+    {
         path: 'ECpwdoublie',
         component: MdpoublieComponent
     },
@@ -84,7 +83,8 @@ const appRoutes: Routes = [
 
         path: 'alerte',
         component: AlertedoublegarantieComponent
-
+    },
+    {
         path: 'espaceclient',
         component: EspaceClientComponent
 
