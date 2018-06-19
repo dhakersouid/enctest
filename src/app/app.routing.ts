@@ -12,13 +12,17 @@ import { RecevoirTarifComponent } from './Component/DevisComparatif/RecevoirTari
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
-import {LoginespaceclientComponent} from "./Component/DevisComparatif/loginespaceclient.component";
-import {AlertedoublegarantieComponent} from "./Component/DevisComparatif/Alertedoublegarantie.component";
+import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alertedoublegarantie.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
-
+import { EcDemandesComponent } from './Component/EspaceClient/EcDemandes.component';
+import { EcPaiementprimeComponent } from './Component/EspaceClient/EcPaiementprime.component';
+import { RenonciationComponent } from './Component/EspaceClient/Renonciation.component';
+import { UploadComponent } from './Component/EspaceClient/Upload.component';
+import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
+import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
 
 const appRoutes: Routes = [
     {
@@ -72,7 +76,8 @@ const appRoutes: Routes = [
     {
         path: 'alerte',
         component: AlertedoublegarantieComponent
-
+    },
+    {
         path: 'ECpwdoublie',
         component: MdpoublieComponent
     },
@@ -84,6 +89,29 @@ const appRoutes: Routes = [
         path: 'espaceclient',
         component: EspaceClientComponent
     },
-
+    {
+        path: 'EcDemandes',
+        component: EcDemandesComponent
+    },
+    {
+        path: 'EcPaiementprime',
+        component: EcPaiementprimeComponent
+    },
+    {
+        path: 'Renonciation',
+        component: RenonciationComponent
+    },
+    {
+        path: 'Upload',
+        component: UploadComponent
+    },
+    {
+        path: 'desabonnement',
+        component: DesabonnerComponent
+    },
+    {
+        path: 'nouvelsituationRC',
+        component: NouvelSituationComponent
+    },
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

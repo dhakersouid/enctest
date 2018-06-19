@@ -17,22 +17,26 @@ import {ResiliationComponent} from './Component/DevisComparatif/Resiliation.comp
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
-import {LoginespaceclientComponent } from './Component/DevisComparatif/loginespaceclient.component';
 import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alertedoublegarantie.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
-
+import { EcDemandesComponent } from './Component/EspaceClient/EcDemandes.component';
+import { EcPaiementprimeComponent } from './Component/EspaceClient/EcPaiementprime.component';
+import { RenonciationComponent } from './Component/EspaceClient/Renonciation.component';
+import { UploadComponent } from './Component/EspaceClient/Upload.component';
+import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
+import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
 
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
     , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent,
-    FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,LoginespaceclientComponent,
-    AlertedoublegarantieComponent,
-    FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component, LoginespaceclientComponent,
-    MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent
+    FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,
+    AlertedoublegarantieComponent, LoginespaceclientComponent,
+    MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
+    EcPaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent, NouvelSituationComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing
