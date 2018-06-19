@@ -96,4 +96,46 @@ td {
 .stylemove {
   font-family:Lato Bold; font-size:15px; font-weight:Bold; color:#b626c3;
 }
+.starRating:not(old){
+  display        : inline-block;
+  width          : 15em;
+  height         : 2.8em;
+  overflow       : hidden;
+  vertical-align : bottom;
+  align:center;
+
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+  text-align: center;
+  align:center;
+}
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background-image     : url("/assets/images/etoile_vide.png");
+  background-size : contain;
+  align:center;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 3em;
+  height          : 3em;
+  background      : url("/assets/images/etoiles.png");
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+  align:center;}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
 

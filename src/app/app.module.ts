@@ -18,7 +18,6 @@ import {FelicitationmdploginECComponent} from './Component/DevisComparatif/Felic
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
 import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alertedoublegarantie.component';
-import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
@@ -28,7 +27,7 @@ import { RenonciationComponent } from './Component/EspaceClient/Renonciation.com
 import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
-
+import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
