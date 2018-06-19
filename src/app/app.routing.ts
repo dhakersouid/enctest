@@ -17,7 +17,7 @@ import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.compon
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
 import { EcDemandesComponent } from './Component/EspaceClient/EcDemandes.component';
-import { EcPaiementprimeComponent } from './Component/EspaceClient/EcPaiementprime.component';
+import { ECPaiementprimeComponent } from './Component/EspaceClient/Ecpaiementprime.component';
 import { RenonciationComponent } from './Component/EspaceClient/Renonciation.component';
 import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
@@ -100,7 +100,7 @@ const appRoutes: Routes = [
     },
     {
         path: 'EcPaiementprime',
-        component: EcPaiementprimeComponent
+        component: ECPaiementprimeComponent
     },
     {
         path: 'Renonciation',
