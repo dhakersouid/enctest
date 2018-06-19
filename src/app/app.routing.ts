@@ -16,6 +16,7 @@ import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginesp
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
+import { ECpaiementprimeComponent } from './Component/EspaceClient/ECpaiementprime.component';
 
 
 const appRoutes: Routes = [
@@ -89,6 +90,12 @@ const appRoutes: Routes = [
         component: EspaceClientComponent
 
     },
+    {
+        path: 'paiementprime',
+        component: ECpaiementprimeComponent
+
+    },
+
 
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

@@ -17,12 +17,12 @@ import {ResiliationComponent} from './Component/DevisComparatif/Resiliation.comp
 import {FelicitationmdploginECComponent} from './Component/DevisComparatif/FelicitationmdploginEC.component';
 import {FelicitationsouscriptionComponent} from './Component/DevisComparatif/Felicitationsouscription.component';
 import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
-import {LoginespaceclientComponent } from './Component/DevisComparatif/loginespaceclient.component';
+import {LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import {AlertedoublegarantieComponent} from './Component/DevisComparatif/Alertedoublegarantie.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
-
+import { ECpaiementprimeComponent } from './Component/EspaceClient/ECpaiementprime.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,7 @@ import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.com
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,LoginespaceclientComponent,
     AlertedoublegarantieComponent,
     FelicitationmdploginECComponent,
-    MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent
+    MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, ECpaiementprimeComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing
