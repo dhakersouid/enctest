@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   styleUrls: ['../../View/EspaceClient/ECpaiementprime.component.css']
 })
 
-export class ECPaiementprimeComponent {
+export class ECpaiementprimeComponent {
 
 
   constructor() {
