@@ -22,7 +22,7 @@ import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.compon
 import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
 import { EcDemandesComponent } from './Component/EspaceClient/EcDemandes.component';
-import { ECpaiementprimeComponent } from './Component/EspaceClient/Ecpaiementprime.component';
+import { ECpaiementprimeComponent } from './Component/EspaceClient/ECpaiementprime.component';
 import { RenonciationComponent } from './Component/EspaceClient/Renonciation.component';
 import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
