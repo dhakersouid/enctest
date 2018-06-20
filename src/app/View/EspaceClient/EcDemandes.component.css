@@ -1,0 +1,26 @@
+legend{
+	font-weight:bold;
+}
+table { 
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+td {
+	text-indent: 3px;
+	
+}
+.top {
+    vertical-align:center
+    
+}
+
+.boxed {
+  border: 1px solid white ;
+}
+
+.stylebleu {
+	font-family:Lato Bold; font-size:15px; font-weight:Regular; color:#94a8cd;
+}
+.stylemove {
+	font-family:Lato Bold; font-size:15px; font-weight:Bold; color:#b626c3; text-align:left;
+}
