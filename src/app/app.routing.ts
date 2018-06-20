@@ -14,9 +14,7 @@ import { Devis5Component } from './Component/DevisComparatif/Devis5.component';
 import {AlertedoublegarantieComponent} from "./Component/DevisComparatif/Alertedoublegarantie.component";
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import { MdpoublieComponent } from './Component/DevisComparatif/mdpoublie.component';
-import { ResiliationlaposteComponent } from './Component/DevisComparatif/Resiliationlaposte.component';
 import { EspaceClientComponent } from './Component/EspaceClient/EspaceClient.component';
-import { ECpaiementprimeComponent } from './Component/EspaceClient/ECpaiementprime.component';
 
 
 const appRoutes: Routes = [
@@ -77,10 +75,6 @@ const appRoutes: Routes = [
         component: MdpoublieComponent
     },
     {
-        path: 'paiementlaposte',
-        component: ResiliationlaposteComponent
-    },
-    {
 
         path: 'alerte',
         component: AlertedoublegarantieComponent
@@ -90,11 +84,7 @@ const appRoutes: Routes = [
         component: EspaceClientComponent
 
     },
-    {
-        path: 'paiementprime',
-        component: ECpaiementprimeComponent
 
-    },
 
 
 ];
