@@ -28,7 +28,22 @@ import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
-
+import { Http } from '@angular/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { NgForm } from '@angular/forms';
+import { Headers } from '@angular/http';
+import {
+  WpApiModule,
+  WpApiLoader,
+  WpApiStaticLoader
+} from 'wp-api-angular';
+import { AuthenticationComponent } from './authentication/authentication.component';
+import { UserListComponent } from './user-list/user-list.component';
+export function WpApiLoaderFactory(http: Http) {
+  return new WpApiStaticLoader(http, 'http://envdev.brokins.fr/wp-json/wp/v2/', '');
+}
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
@@ -37,14 +52,21 @@ import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginesp
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,
     AlertedoublegarantieComponent, LoginespaceclientComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
-    ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent, NouvelSituationComponent
+    ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
+     NouvelSituationComponent, AuthenticationComponent, UserListComponent
   ],
   imports: [
-    BrowserModule, FormsModule, routing
+    BrowserModule, FormsModule, routing, HttpClientModule, // <---
+    WpApiModule.forRoot({ // <---
+      provide: WpApiLoader,
+      useFactory: (WpApiLoaderFactory),
+      deps: [Http]
+    })
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: '/' }
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
