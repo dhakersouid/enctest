@@ -41,16 +41,9 @@ import { Observable } from 'rxjs';
 import { NgForm } from '@angular/forms';
 import { Headers } from '@angular/http';
 import { MatChipsModule, MatFormFieldModule, MatInputModule } from '@angular/material';
-import {
-  WpApiModule,
-  WpApiLoader,
-  WpApiStaticLoader
-} from 'wp-api-angular';
 import { AuthenticationComponent } from './authentication/authentication.component';
 import { UserListComponent } from './user-list/user-list.component';
-export function WpApiLoaderFactory(http: Http) {
-  return new WpApiStaticLoader(http, 'http://envdev.brokins.fr/wp-json/wp/v2/', '');
-}
+
 @NgModule({
 
   declarations: [
@@ -65,12 +58,6 @@ export function WpApiLoaderFactory(http: Http) {
   imports: [
     FormsModule, routing ,AccordionModule,ModalModule,BsDropdownModule,TooltipModule,BrowserAnimationsModule,AlertModule.forRoot(),
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
-    WpApiModule.forRoot({
-      provide: WpApiLoader,
-      useFactory: (WpApiLoaderFactory),
-      deps: [Http]
-    })
-
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: '/' }
