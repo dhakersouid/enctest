@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MatChipInputEvent } from '@angular/material';
 
 @Component({
     selector: 'devisproduit',
@@ -6,11 +7,12 @@ import { Component } from '@angular/core';
     styleUrls: ['../../View/DevisComparatif/Devis1.component.css']
 })
 export class Devis1Component {
-
-
+    typeassurance = '';
     constructor() {
 
     }
-
+    update() {
+        this.typeassurance = 'dommage ouvrage';
+    }
 
 }

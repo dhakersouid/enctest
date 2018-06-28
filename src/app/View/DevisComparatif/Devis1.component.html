@@ -8,44 +8,45 @@
 
 <div>
     <table style="width:100%">
+       
         <tr>
-            <th colspan="6"><input type="text" id="typeassurance" style="width:100%;"></th>
+            <th colspan="6"><input type="text" id="typeassurance" style="width:100%;" [ngModel]="typeassurance"></th>
         </tr>
         <tr>
-            <th><a routerLink="/devisPJentreprise"><img src="assets/images/boutoProtectionjuridique.png" /></a></th>
-            <th><a><img src="assets/images/boutondommageouvrage.png" /></a></th>
-            <th><a><img src="assets/images/boutongarantiedecenale.png" /></a></th>
-            <th><a><img src="assets/images/boutonresponsabilitecivile.png" /></a></th>
-            <th><a><img src="assets/images/boutonRespmandataires.png" /></a></th>
-            <th><a><img src="assets/images/boutonjenesaispas.png" /></a></th>
+            <th><button routerLink="/devisPJentreprise" ><img src="assets/images/boutoProtectionjuridique.png" /></button></th>
+            <th><button (click)="update()"  [ngModel]="btn1" style="background-color:transparent;border:none;" ><img src="assets/images/boutondommageouvrage.png" /></button></th>
+            <th><button><img src="assets/images/boutongarantiedecenale.png" /></button></th>
+            <th><button><img src="assets/images/boutonresponsabilitecivile.png" /></button></th>
+            <th><button><img src="assets/images/boutonRespmandataires.png" /></button></th>
+            <th><button><img src="assets/images/boutonjenesaispas.png" /></button></th>
 
         </tr>
         <tr>
 
-            <th><a><img src="assets/images/boutonMotoindividuellepro.png"  /></a></th>
-            <th><a><img src="assets/images/boutonbrisdemachine.png" /></a></th>
-            <th><a><img src="assets/images/boutonmarchandisetransportee.png" /></a></th>
-            <th><a><img src="assets/images/boutonrisuqesinformatiques.png" /></a></th>
-            <th><a><img src="assets/images/boutonmultirisquespro.png" /></a></th>
-            <th><a><img src="assets/images/boutonPertedexploitation.png" /></a></th>
+            <th><button><img src="assets/images/boutonMotoindividuellepro.png"  /></button></th>
+            <th><button><img src="assets/images/boutonbrisdemachine.png" /></button></th>
+            <th><button><img src="assets/images/boutonmarchandisetransportee.png" /></button></th>
+            <th><button><img src="assets/images/boutonrisuqesinformatiques.png" /></button></th>
+            <th><button><img src="assets/images/boutonmultirisquespro.png" /></button></th>
+            <th><button><img src="assets/images/boutonPertedexploitation.png" /></button></th>
 
         </tr>
         <tr>
-            <th><a ><img src="assets/images/boutonmutuellesanteentreprise.png" /></a></th>
-            <th><a><img src="assets/images/boutonMutuelleTNSmadelin.png" /></a></th>
-            <th><a><img src="assets/images/boutonHommecle.png" /></a></th>
-            <th><a><img src="assets/images/boutondrone.png" /></a></th>
-            <th><a><img src="assets/images/boutonPrevoyancetnsmadelin.png" /></a></th>
-            <th><a><img src="assets/images/boutonretraitecomplementaire.png" /></a></th>
+            <th><button ><img src="assets/images/boutonmutuellesanteentreprise.png" /></button></th>
+            <th><button><img src="assets/images/boutonMutuelleTNSmadelin.png" /></button></th>
+            <th><button><img src="assets/images/boutonHommecle.png" /></button></th>
+            <th><button><img src="assets/images/boutondrone.png" /></button></th>
+            <th><button><img src="assets/images/boutonPrevoyancetnsmadelin.png" /></button></th>
+            <th><button><img src="assets/images/boutonretraitecomplementaire.png" /></button></th>
 
         </tr>
         <tr>
-            <th><a><img src="assets/images/boutonMutuelleprevoyancemadelin.png" /></a></th>
-            <th><a><img src="assets/images/boutonAutoproffessionnelle.png" /></a></th>
-            <th><a><img src="assets/images/boutonRetraitemadelin.png" /></a></th>
-            <th><a><img src="assets/images/boutonFlottemoto.png" /></a></th>
-            <th><a><img src="assets/images/boutonFlotteauto.png" /></a></th>
-            <th><a><img src="assets/images/boutonCreditprofessionnel.png" /></a></th>
+            <th><button><img src="assets/images/boutonMutuelleprevoyancemadelin.png" /></button></th>
+            <th><button><img src="assets/images/boutonAutoproffessionnelle.png" /></button></th>
+            <th><button><img src="assets/images/boutonRetraitemadelin.png" /></button></th>
+            <th><button><img src="assets/images/boutonFlottemoto.png" /></button></th>
+            <th><button><img src="assets/images/boutonFlotteauto.png" /></button></th>
+            <th><button><img src="assets/images/boutonCreditprofessionnel.png" /></button></th>
 
         </tr>
     </table>

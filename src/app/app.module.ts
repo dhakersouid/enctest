@@ -34,7 +34,23 @@ import { ModalModule} from 'ngx-bootstrap/modal';
 import {AccordionModule} from 'primeng/accordion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AlertModule } from 'ngx-bootstrap';
-
+import { Http } from '@angular/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { NgForm } from '@angular/forms';
+import { Headers } from '@angular/http';
+import { MatChipsModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import {
+  WpApiModule,
+  WpApiLoader,
+  WpApiStaticLoader
+} from 'wp-api-angular';
+import { AuthenticationComponent } from './authentication/authentication.component';
+import { UserListComponent } from './user-list/user-list.component';
+export function WpApiLoaderFactory(http: Http) {
+  return new WpApiStaticLoader(http, 'http://envdev.brokins.fr/wp-json/wp/v2/', '');
+}
 @NgModule({
 
   declarations: [
@@ -43,14 +59,23 @@ import { AlertModule } from 'ngx-bootstrap';
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,
     AlertedoublegarantieComponent, LoginespaceclientComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
-    ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent, NouvelSituationComponent
+    ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
+     NouvelSituationComponent, AuthenticationComponent, UserListComponent
   ],
   imports: [
-    FormsModule, routing ,AccordionModule,ModalModule,BsDropdownModule,TooltipModule,BrowserAnimationsModule,AlertModule.forRoot()
+    FormsModule, routing ,AccordionModule,ModalModule,BsDropdownModule,TooltipModule,BrowserAnimationsModule,AlertModule.forRoot(),
+    BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
+    WpApiModule.forRoot({
+      provide: WpApiLoader,
+      useFactory: (WpApiLoaderFactory),
+      deps: [Http]
+    })
+
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: '/' }
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

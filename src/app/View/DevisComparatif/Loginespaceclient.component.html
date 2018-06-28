@@ -16,7 +16,7 @@
 
 </div>
 <br>
-<form style="">
+<form (ngSubmit)="loginUser(event)" #event="ngForm">
   <div >
     <table style="width:100%"  cellpadding=2 align="left" cellpadding=0>
 
@@ -39,13 +39,13 @@
 
       <tr>
         <td >
-          <input type="text" name="nomentreprise" width="50 px">
+          <input type="text" name="mail" width="50 px" ngModel>
         </td>
         <td align="center">
           <label class="stylebleu" style="color:white;">OU</label>
         </td>
         <td >
-          <input type="text" name="mail" width="50 px">
+          <input type="text" name="nomentreprise" width="50 px" ngModel>
         </td>
       </tr>
     </table>
@@ -76,7 +76,7 @@
         </td>
         <td >
           <div align="left" style="background-color:#94a8cd;">
-            <a routerLink="/espaceclient" style="text-align:right"><img width="127" height="32" src="assets/images/boutonconnexion.png" /></a>
+            <button type="submit" style="text-align:right"><img width="127" height="32" src="assets/images/boutonconnexion.png" /></button>
           </div>
         </td>
       </tr>
