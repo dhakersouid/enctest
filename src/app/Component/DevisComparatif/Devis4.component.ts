@@ -11,6 +11,4 @@ export class Devis4Component {
     constructor() {
 
     }
-
-
 }

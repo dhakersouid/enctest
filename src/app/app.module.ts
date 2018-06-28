@@ -34,6 +34,7 @@ import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { NgForm } from '@angular/forms';
 import { Headers } from '@angular/http';
+import { MatChipsModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import {
   WpApiModule,
   WpApiLoader,
@@ -56,7 +57,7 @@ export function WpApiLoaderFactory(http: Http) {
      NouvelSituationComponent, AuthenticationComponent, UserListComponent
   ],
   imports: [
-    BrowserModule, FormsModule, routing, HttpClientModule, // <---
+    BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule, // <---
     WpApiModule.forRoot({ // <---
       provide: WpApiLoader,
       useFactory: (WpApiLoaderFactory),

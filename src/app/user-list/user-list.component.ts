@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { WpApiUsers } from 'wp-api-angular';
+import { WpApiPosts } from 'wp-api-angular';
 import { Headers } from '@angular/http';
 
 @Component({
@@ -9,8 +10,11 @@ import { Headers } from '@angular/http';
 })
 export class UserListComponent implements OnInit {
   users = [];
-  constructor(private wpApiUsers: WpApiUsers) {
-    this.getUserList(); }
+  posts = [];
+  constructor(private wpApiUsers: WpApiUsers, private wpApiPosts: WpApiPosts) {
+    this.getUserList();
+    this.getPostList();
+   }
 
   getUserList() {
     this.wpApiUsers.getList()
@@ -20,6 +24,14 @@ export class UserListComponent implements OnInit {
         this.users = json;
       });
     }
+  getPostList() {
+    this.wpApiPosts.getList()
+      .toPromise()
+      .then(response => {
+        let json: any = response.json();
+        this.posts = json;
+      });
+  }
 
   ngOnInit() {
   }
