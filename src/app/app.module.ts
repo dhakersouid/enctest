@@ -28,19 +28,25 @@ import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
+import  {BsDropdownModule} from 'ngx-bootstrap/dropdown';
+import  { TooltipModule} from 'ngx-bootstrap/tooltip';
+import { ModalModule} from 'ngx-bootstrap/modal';
+import {AccordionModule} from 'primeng/accordion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AlertModule } from 'ngx-bootstrap';
 
 @NgModule({
+
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
     , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent,
-
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,
     AlertedoublegarantieComponent, LoginespaceclientComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent, NouvelSituationComponent
   ],
   imports: [
-    BrowserModule, FormsModule, routing
+    FormsModule, routing ,AccordionModule,ModalModule,BsDropdownModule,TooltipModule,BrowserAnimationsModule,AlertModule.forRoot()
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: '/' }
