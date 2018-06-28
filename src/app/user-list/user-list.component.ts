@@ -1,19 +1,14 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'user-list',
   templateUrl: './user-list.component.html',
   styleUrls: ['./user-list.component.css']
 })
-export class UserListComponent implements OnInit {
+export class UserListComponent  {
   constructor() {
 
   }
 
-
-
-  ngOnInit() {
-    console.log('hit');
-  }
 
 }

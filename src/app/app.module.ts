@@ -34,13 +34,7 @@ import { ModalModule} from 'ngx-bootstrap/modal';
 import {AccordionModule} from 'primeng/accordion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AlertModule } from 'ngx-bootstrap';
-import { Http } from '@angular/http';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
-import { NgForm } from '@angular/forms';
-import { Headers } from '@angular/http';
-import { MatChipsModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import { AuthenticationComponent } from './authentication/authentication.component';
 import { UserListComponent } from './user-list/user-list.component';
 
@@ -57,7 +51,7 @@ import { UserListComponent } from './user-list/user-list.component';
   ],
   imports: [
     FormsModule, routing ,AccordionModule,ModalModule,BsDropdownModule,TooltipModule,BrowserAnimationsModule,AlertModule.forRoot(),
-    BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
+    BrowserModule, FormsModule, routing, HttpClientModule
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: '/' }

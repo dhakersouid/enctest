@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'login',
@@ -9,18 +9,7 @@ import { Component, OnInit} from '@angular/core';
 export class LoginespaceclientComponent {
 
 
-  users = [];
-  posts = [];
   constructor() {
 
   }
-
-
-
-  ngOnInit() {
-    console.log('hit');
-  }
-
-
-
 }
