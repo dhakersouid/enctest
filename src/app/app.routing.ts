@@ -113,6 +113,5 @@ const appRoutes: Routes = [
         path: 'nouvelsituationRC',
         component: NouvelSituationComponent
     },
-
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
