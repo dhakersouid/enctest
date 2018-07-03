@@ -21,6 +21,11 @@ import { RenonciationComponent } from './Component/EspaceClient/Renonciation.com
 import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
+import { AproposComponent} from './Component/Conseil/Apropos.component';
+import { GCUComponent} from './Component/Conseil/GCU.component';
+import { ContactComponent} from './Component/Conseil/Contact.component';
+import { MentionlegaleComponent} from './Component/Conseil/Mentionlegale.component';
+import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.component';
 
 const appRoutes: Routes = [
     {
@@ -113,5 +118,34 @@ const appRoutes: Routes = [
         path: 'nouvelsituationRC',
         component: NouvelSituationComponent
     },
+    {
+    path: 'apropos',
+    component: AproposComponent
+    },
+    {
+    path: 'gcu',
+    component: GCUComponent
+    },
+    {
+    path: 'contact',
+    component: ContactComponent
+    },
+    {
+    path: 'mention',
+    component: MentionlegaleComponent
+    },
+    {
+    path: 'modalite',
+    component: MentionlegaleComponent
+    },
+    {
+    path: 'parlez',
+    component: ParlezavosamisComponent
+    },
+
+
+
+
+
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

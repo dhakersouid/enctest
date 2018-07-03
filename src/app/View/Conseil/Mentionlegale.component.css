@@ -1,0 +1,22 @@
+.stylebleu {
+  font-family:Lato Bold; font-size:15; font-weight:Regular; color:#94a8cd; text-align: justify; text-justify: inter-word;
+}
+.stylemove {
+  font-family:Lato Bold; font-size:15; font-weight:Bold; color:#b626c3; text-align:left;
+}
+.stylemoveregular {
+  font-family:Lato Bold; font-size:15; font-weight:Regular; color:#b626c3; text-align:left;
+}
+.boxed {
+  border: 0px solid black ;
+  color: white;
+}
+h3{
+  margin-left:15px;
+  text-align: justify; text-justify: inter-word;
+}
+p{
+  margin-left:15px;
+  text-align: justify; text-justify: inter-word;
+  width:1300px;
+}

@@ -28,13 +28,15 @@ import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
+import {GCUComponent} from './Component/Conseil/GCU.component';
 import { Http } from '@angular/http';
+import {AproposComponent} from './Component/Conseil/Apropos.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
-import { NgForm } from '@angular/forms';
-import { Headers } from '@angular/http';
-import { MatChipsModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import { ContactComponent} from './Component/Conseil/Contact.component';
+import { MentionlegaleComponent} from './Component/Conseil/Mentionlegale.component';
+import {ModalitepaiementComponent} from './Component/Conseil/Modalitepaiement.component';
+import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.component';
+import { MatChipsModule, MatFormFieldModule, MatInputModule, } from '@angular/material';
 import {
   WpApiModule,
   WpApiLoader,
@@ -54,10 +56,11 @@ export function WpApiLoaderFactory(http: Http) {
     AlertedoublegarantieComponent, LoginespaceclientComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
-     NouvelSituationComponent, AuthenticationComponent, UserListComponent
+     NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
+    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent
   ],
   imports: [
-    BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule, // <---
+    BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
     WpApiModule.forRoot({ // <---
       provide: WpApiLoader,
       useFactory: (WpApiLoaderFactory),
