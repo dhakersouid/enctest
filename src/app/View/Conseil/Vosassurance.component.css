@@ -1,0 +1,53 @@
+.top {
+    vertical-align:top
+    
+}
+.boxed {
+  border: 1px solid black ;
+}
+
+.stylebleu {
+	font-family:Lato Bold; font-size:15px; font-weight:bold; color:#94a8cd;
+}
+.stylemove {
+	font-family:Lato Bold; font-size:15px; font-weight:Bold; color:#b626c3; text-align:left;
+}
+.stylewhite {
+	font-family:Lato Bold; font-size:15px; font-weight:Bold; text-align:left;color:#94a8cd;
+}
+
+input{
+	vertical-align: middle;
+	
+}
+td{
+	font-family:Lato Bold; font-size:15px; font-weight:Bold;
+}
+
+.pair
+{
+   background-color: #95a7cb ;
+   border: 1px solid black;
+   padding: 1em;
+   color: white;
+}
+
+.impair1
+{
+   background-color: white ;
+   
+   padding: 1em;
+    color : white;
+}
+
+.impair 
+{
+   color: black;
+   background-color: #D5D4D4;
+   padding: 1em;
+  
+}
+td{
+    border-right: 1px solid black;
+	padding-left: 5px;
+}

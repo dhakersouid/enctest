@@ -27,6 +27,7 @@ import { ContactComponent} from './Component/Conseil/Contact.component';
 import { MentionlegaleComponent} from './Component/Conseil/Mentionlegale.component';
 import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.component';
 import { ConseilComponent } from './Component/Conseil/Conseil.component';
+import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
 
 
 const appRoutes: Routes = [
@@ -148,7 +149,10 @@ const appRoutes: Routes = [
         path: 'conseil',
         component: ConseilComponent
     },
-
+    {
+        path: 'vosassurances',
+        component: AssuranceComponent
+    },
 
 
 
