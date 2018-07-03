@@ -37,6 +37,8 @@ import { MentionlegaleComponent} from './Component/Conseil/Mentionlegale.compone
 import {ModalitepaiementComponent} from './Component/Conseil/Modalitepaiement.component';
 import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.component';
 import { MatChipsModule, MatFormFieldModule, MatInputModule, } from '@angular/material';
+import { ConseilComponent } from './Component/Conseil/Conseil.component';
+
 import {
   WpApiModule,
   WpApiLoader,
@@ -57,7 +59,7 @@ export function WpApiLoaderFactory(http: Http) {
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
      NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
-    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent
+    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
