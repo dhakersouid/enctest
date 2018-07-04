@@ -34,8 +34,13 @@ import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
 import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
 import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
 import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
+<<<<<<< HEAD
 
 >>>>>>> e9dd48f70712194c7926484b306270af608136b2
+=======
+import { ConseilDefinitionComponent } from './Component/Conseil/ConseilDefinition.component';
+import { RecevoirDefinitionComponent } from './Component/Conseil/RecevoirDefinition.component';
+>>>>>>> c56f9946a6bc42bf023979bf40647e5b71c1ccbd
 
 const appRoutes: Routes = [
     {
@@ -180,7 +185,18 @@ const appRoutes: Routes = [
         path: 'commentaire',
         component: CommentaireComponent
     },
+<<<<<<< HEAD
 >>>>>>> e9dd48f70712194c7926484b306270af608136b2
 
+=======
+    {
+        path: 'conseildefinitionpj',
+        component: ConseilDefinitionComponent
+    },
+    {
+        path: 'recevoirdefinition',
+        component: RecevoirDefinitionComponent
+    },
+>>>>>>> c56f9946a6bc42bf023979bf40647e5b71c1ccbd
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

@@ -43,6 +43,8 @@ import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
 import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
 import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
 import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
+import { ConseilDefinitionComponent } from './Component/Conseil/ConseilDefinition.component';
+import { RecevoirDefinitionComponent } from './Component/Conseil/RecevoirDefinition.component';
 
 import {
   WpApiModule,
@@ -68,8 +70,13 @@ export function WpApiLoaderFactory(http: Http) {
     MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent,ConseiltoutesquestionsComponent
 =======
     MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent,
+<<<<<<< HEAD
     RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent
 >>>>>>> e9dd48f70712194c7926484b306270af608136b2
+=======
+    RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent, ConseilDefinitionComponent,
+    RecevoirDefinitionComponent
+>>>>>>> c56f9946a6bc42bf023979bf40647e5b71c1ccbd
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
