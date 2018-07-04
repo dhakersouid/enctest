@@ -40,6 +40,7 @@ import { MatChipsModule, MatFormFieldModule, MatInputModule, } from '@angular/ma
 import { ConseilComponent } from './Component/Conseil/Conseil.component';
 import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
 import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
+import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
 
 import {
   WpApiModule,
@@ -62,7 +63,7 @@ export function WpApiLoaderFactory(http: Http) {
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
      NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
     MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent,
-    RecevoirconseilComponent
+    RecevoirconseilComponent, FelicitationRecevoirConseilComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
