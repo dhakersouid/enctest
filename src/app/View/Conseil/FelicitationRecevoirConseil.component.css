@@ -1,0 +1,10 @@
+.stylebleu {
+	font-family:Lato; font-size:15; font-weight:Regular; color:#94a8cd; text-align:left;
+}
+.stylemove {
+	font-family:Lato Bold; font-size:15; font-weight:Bold; color:#b626c3; text-align:left;
+}
+fieldset {
+  color:#6a89b9;
+  border-width:0.5px; border-color:#9fc5f8;
+}

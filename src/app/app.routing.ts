@@ -26,7 +26,16 @@ import { GCUComponent} from './Component/Conseil/GCU.component';
 import { ContactComponent} from './Component/Conseil/Contact.component';
 import { MentionlegaleComponent} from './Component/Conseil/Mentionlegale.component';
 import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.component';
+<<<<<<< HEAD
 import {ConseiltoutesquestionsComponent} from './Component/Conseil/Conseiltoutesquestions.component';
+=======
+import { ConseilComponent } from './Component/Conseil/Conseil.component';
+import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
+import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
+import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
+import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
+
+>>>>>>> e9dd48f70712194c7926484b306270af608136b2
 
 const appRoutes: Routes = [
     {
@@ -144,12 +153,34 @@ const appRoutes: Routes = [
     component: ParlezavosamisComponent
     },
     {
+<<<<<<< HEAD
     path: 'question',
     component: ConseiltoutesquestionsComponent
     },
 
 
 
+=======
+        path: 'conseil',
+        component: ConseilComponent
+    },
+    {
+        path: 'vosassurances',
+        component: AssuranceComponent
+    },
+    {
+        path: 'conseilrecevoirconseil',
+        component: RecevoirconseilComponent
+    },
+    {
+        path: 'felicitationrecevoirconseil',
+        component: FelicitationRecevoirConseilComponent
+    },
+    {
+        path: 'commentaire',
+        component: CommentaireComponent
+    },
+>>>>>>> e9dd48f70712194c7926484b306270af608136b2
 
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

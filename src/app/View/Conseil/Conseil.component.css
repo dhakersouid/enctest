@@ -1,0 +1,24 @@
+.stylebleu {
+	font-family:Lato; font-size:15; font-weight:Regular; color:#94a8cd; text-align:left;
+}
+.stylemove {
+	font-family:Lato Bold; font-size:15; font-weight:Bold; color:#b626c3; text-align:left;
+}
+
+input{
+    font-family:Lato Bold; font-size:15; font-weight:Bold; color:#b626c3; text-align:left;
+    line-height: 2em;
+    border-color: #b626c3;
+}
+h1{
+    font-family:Lato Bold; font-weight:Bold; color:#b626c3; 
+}
+h3{
+    font-family:Lato Bold; font-weight:Bold; color:white; 
+}
+table{
+    padding : 5px;
+}
+td{
+    padding : 5px;
+}

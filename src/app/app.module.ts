@@ -38,6 +38,12 @@ import {ModalitepaiementComponent} from './Component/Conseil/Modalitepaiement.co
 import {ConseiltoutesquestionsComponent} from './Component/Conseil/Conseiltoutesquestions.component';
 import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.component';
 import { MatChipsModule, MatFormFieldModule, MatInputModule, } from '@angular/material';
+import { ConseilComponent } from './Component/Conseil/Conseil.component';
+import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
+import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
+import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
+import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
+
 import {
   WpApiModule,
   WpApiLoader,
@@ -58,7 +64,12 @@ export function WpApiLoaderFactory(http: Http) {
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
      NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
+<<<<<<< HEAD
     MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent,ConseiltoutesquestionsComponent
+=======
+    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent,
+    RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent
+>>>>>>> e9dd48f70712194c7926484b306270af608136b2
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
