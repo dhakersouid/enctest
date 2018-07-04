@@ -39,6 +39,7 @@ import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.compon
 import { MatChipsModule, MatFormFieldModule, MatInputModule, } from '@angular/material';
 import { ConseilComponent } from './Component/Conseil/Conseil.component';
 import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
+import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
 
 import {
   WpApiModule,
@@ -60,7 +61,8 @@ export function WpApiLoaderFactory(http: Http) {
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
      NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
-    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent
+    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent,
+    RecevoirconseilComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
