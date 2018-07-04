@@ -32,6 +32,7 @@ import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.co
 import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
 import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
 import { ConseilDefinitionComponent } from './Component/Conseil/ConseilDefinition.component';
+import { RecevoirDefinitionComponent } from './Component/Conseil/RecevoirDefinition.component';
 
 const appRoutes: Routes = [
     {
@@ -172,6 +173,9 @@ const appRoutes: Routes = [
         path: 'conseildefinitionpj',
         component: ConseilDefinitionComponent
     },
-
+    {
+        path: 'recevoirdefinition',
+        component: RecevoirDefinitionComponent
+    },
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
