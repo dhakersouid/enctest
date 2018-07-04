@@ -31,7 +31,7 @@ import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
 import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
 import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
 import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
-
+import { ConseilDefinitionComponent } from './Component/Conseil/ConseilDefinition.component';
 
 const appRoutes: Routes = [
     {
@@ -167,6 +167,10 @@ const appRoutes: Routes = [
     {
         path: 'commentaire',
         component: CommentaireComponent
+    },
+    {
+        path: 'conseildefinitionpj',
+        component: ConseilDefinitionComponent
     },
 
 ];
