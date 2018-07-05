@@ -27,6 +27,7 @@ import { RenonciationComponent } from './Component/EspaceClient/Renonciation.com
 import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
+import {ConseiltoutesreponsesComponent} from './Component/Conseil/Conseiltoutesreponses.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import {GCUComponent} from './Component/Conseil/GCU.component';
 import { Http } from '@angular/http';
@@ -60,23 +61,16 @@ export function WpApiLoaderFactory(http: Http) {
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
     , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent,
-
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,
     AlertedoublegarantieComponent, LoginespaceclientComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
      NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
-<<<<<<< HEAD
-    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent,ConseiltoutesquestionsComponent
-=======
+    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseiltoutesquestionsComponent,
     MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent,
-<<<<<<< HEAD
-    RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent
->>>>>>> e9dd48f70712194c7926484b306270af608136b2
-=======
+    RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent,
     RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent, ConseilDefinitionComponent,
-    RecevoirDefinitionComponent
->>>>>>> c56f9946a6bc42bf023979bf40647e5b71c1ccbd
+    RecevoirDefinitionComponent,ConseiltoutesreponsesComponent
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
