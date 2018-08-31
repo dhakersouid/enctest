@@ -1,164 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+<body bgcolor="#94a8cd" style="margin-right:45px; margin-left:0px;">
+<script>
+  $("input:checkbox").on('click', function() {
+    // in the handler, 'this' refers to the box clicked on
+    var $box = $(this);
+    if ($box.is(":checked")) {
+      // the name of the box is retrieved using the .attr() method
+      // as it is assumed and expected to be immutable
+      var group = "input:checkbox[name='" + $box.attr("name") + "']";
+      // the checked state of the group/box on the other hand will change
+      // and the current value is retrieved using .prop() method
+      $(group).prop("checked", false);
+      $box.prop("checked", true);
+    } else {
+      $box.prop("checked", false);
+    }
+  });
+</script>
+
 <br>
-<div align="left">
-  <a action="" style="align:left"><img src="assets/images/boutonretour.png" /></a>
+<div align="right">
+  <a routerLink="/" style="align:right"><img src="assets/images/boutonretouraccueil.png" /></a>
 </div>
 <br>
 
-<div style="background-color:white;" class="boxed"  >
+<div style="; background-color:white;" class="boxed"  >
   <br>
   <b><p style="font-family:Lato Bold; font-size:17px; font-weight:Regular; color:#b626c3;"  >Formulaire de contact : </p>
     <p >
-  </b><p style="font-family:Lato Bold; font-size:17px; font-weight:Regular;">
+  </b><p style="font-family:Lato Bold; font-size:17px; font-weight:Regular; ">
   <b style="color:#94a8cd;">Merci de remplir tous les champs afin que votre demande soit aiguillée vers le bon service. Vous pouvez également joindre un document.</b>
 
 </p>
   <br>
 </div>
 
-<form>
-  <div>
-    <b><p style="font-family:Lato Bold;  font-size:15px; font-weight:Regular; color:white; "  >Qui êtes-vous ? <b style="color:#b626c3;">*</b></p>
 
-      <table style=" border:collapse; width:100%;  line-height: 5px; " id="cssTable" cellpadding=0 align="left" border=0 cellspacing=0>
-        <tr>
-          <td>
-            <label id="container"  ><b style="color:white;font-size:15px;"><br><br>Client</b><input checked="checked"style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]"/>
-    <span class="checkmark" ></span>
-    </label>
+<div>
+<b><p style="font-family:Lato Bold; font-size:15px; font-weight:Regular; color:white; "  >Qui êtes-vous ? <b style="color:#b626c3;">*</b></p>
 
-    </td>
-    <td>
-      <label id="container" ><b style="color:white;font-size:15px;"><br><br>Assureur</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
-        <span class="checkmark"></span>
-      </label>
+  <table style="width:100%; border:collapse;margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 5px; " id="cssTable" cellpadding=0 align="left" border=0 cellspacing=0>
+    <tr>
+      <td>
+        <label id="container"  ><b style="color:white;font-size:15px;"><br><br>Client</b><input checked="checked"style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]"/>
+<span class="checkmark" ></span>
+</label>
+
+</td>
+<td>
+  <label id="container" ><b style="color:white;font-size:15px;"><br><br>Assureur</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
+    <span class="checkmark"></span>
+  </label>
 
 
-    </td>
-    <td>
-      <label id="container" ><b style="color:white;font-size:15px;"><br><br>Partenaire</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
-        <span class="checkmark"></span>
-      </label>
-    </td>
-    <td>
-      <label id="container" ><b style="color:white;font-size:15px;"><br><br>Professionnel</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
-        <span class="checkmark"></span>
-      </label>
-    </td>
-    <td>
-      <label id="container" ><b style="color:white;font-size:15px;"><br><br>Presse</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
-        <span class="checkmark"></span>
-      </label>
-    </td>
-    <td>
-      <label id="container" ><b style="color:white;font-size:15px;"><br><br>Investisseur</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
-        <span class="checkmark"></span>
-      </label>
-    </td>
+</td>
+<td>
+  <label id="container" ><b style="color:white;font-size:15px;"><br><br>Partenaire</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
+    <span class="checkmark"></span>
+  </label>
+</td>
+<td>
+  <label id="container" ><b style="color:white;font-size:15px;"><br><br>Professionnel</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
+    <span class="checkmark"></span>
+  </label>
+</td>
+<td>
+  <label id="container" ><b style="color:white;font-size:15px;"><br><br>Presse</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
+    <span class="checkmark"></span>
+  </label>
+</td>
+<td>
+  <label id="container" ><b style="color:white;font-size:15px;"><br><br>Investisseur</b><input  style="border:0px;" type="checkbox" class="radio" value="1" name="fooby[1][]" />
+    <span class="checkmark"></span>
+  </label>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<div style="margin-left:0px; background-color:white;" class="boxed"  >
+  <br>
+
+  <p style="font-family:Lato Bold; font-size:22; font-weight:Regular; ">
+  <b style="color:#b626c3; font-size:17px;">Si vous êtes déjà client</b>
+  <b style="color:#94a8cd;font-size:17px;">, n'hésitez pas à passer par votre espace client, ainsi vous profiterez d'un service plus simple et plus rapide, en ayant également accès à votre espace conseil assurance personnalisé. Cliquer ***lien***</b>
+</p>
+
+</div>
+<div >
+  <table style="width:100%; border:collapse;margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 20px; " id="cssTable" cellpadding=0 align="left" border=0 cellspacing=0>
+
+    <tr>
+      <td width="15%">
+        <p class="formtext" ><b style="color:white;font-size:15px;margin-left:9px;">Nom : </b><b style="color:#b626c3;">*</b></p>
+
+      </td>
+
+      <td width="90%" >
+        <input  style="width:45% " type="text" name="nom" class="zonetext">
+      </td>
     </tr>
-    </table>
-
-  <br>
-  <br>
-  <div style="background-color:white;" class="boxed"  >
-    <br>
-
-    <p style="font-family:Lato Bold; font-size:22; font-weight:Regular;">
-    <b style="color:#b626c3; font-size:17px;">Si vous êtes déjà client</b>
-    <b style="color:#94a8cd;font-size:17px;">, n'hésitez pas à passer par votre espace client, ainsi vous profiterez d'un service plus simple et plus rapide, en ayant également accès à votre espace conseil assurance personnalisé. Cliquer ***lien***</b>
-  </p>
-
-  </div>
-  <div >
-    <table style="width:100%;border:collapse;line-height: 20px; " id="cssTable" cellpadding=0 align="left" border=0 cellspacing=0>
-
-      <tr>
-        <td  width="10%" >
-          <p class="formtext" ><b style="color:white;font-size:15px;">Nom : </b><b style="color:#b626c3;">*</b></p>
-
-        </td>
-
-        <td  width="10%" >
-          <input  style="border:0px;" type="text" name="nom" class="zonetext"/>
-        </td>
-      </tr>
 
 
-      <tr>
-        <td  width="10%" >
-          <p class="formtext" ><b style="color:white;font-size:15px;">Prenom :</b><b style="color:#b626c3;">*</b></p>
-        </td>
+    <tr>
+      <td>
+        <p class="formtext" ><b style="color:white;font-size:15px;margin-left:9px;">Prenom :</b><b style="color:#b626c3;">*</b></p>
+      </td>
 
-        <td  width="10%" >
-          <input style="border:0px;"
-                 type="text" name="prenom" class="zonetext"/>
-        </td>
-      </tr>
+      <td>
+        <input style="width:45% "
+               type="text" name="prenom" class="zonetext">
+      </td>
+    </tr>
 
-      <tr  width="10%" >
-        <td>
-          <p class="formtext" ><b style="color:white;font-size:15px;">Société :</b><b style="color:#b626c3;">*</b></p>
-        </td>
+    <tr>
+      <td>
+        <p class="formtext" ><b style="color:white;font-size:15px;margin-left:9px;">Société :</b><b style="color:#b626c3;">*</b></p>
+      </td>
 
-        <td  width="10%" >
-          <input  style="border:0px;" type="text" name="societe" class="zonetext"/>
-        </td>
-      </tr>
-      <tr>
-        <td  width="10%" >
-          <p class="formtext" ><b style="color:white;font-size:15px;">Email :</b><b style="color:#b626c3;">*</b></p>
-        </td>
+      <td>
+        <input  style="width:45% "  type="text" name="societe" class="zonetext">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p class="formtext" ><b style="color:white;font-size:15px;margin-left:9px;">Email :</b><b style="color:#b626c3;">*</b></p>
+      </td>
 
-        <td  width="10%" >
-          <input style="border:0px;" type="text" name="email" class="zonetext"/>
-        </td>
-      </tr>
-      <tr>
-        <td  width="10%" >
-          <p class="formtext" ><b style="color:white;font-size:15px;">Objet :</b><b style="color:#b626c3;">*</b></p>
-        </td>
+      <td>
+        <input style="width:45% "  type="text" name="email" class="zonetext">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p class="formtext" ><b style="color:white;font-size:15px;margin-left:9px;">Objet :</b><b style="color:#b626c3;">*</b></p>
+      </td>
 
-        <td  width="10%" >
-          <input style="border:0px;" type="text" name="objet" class="zonetext"/>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <br>
-<br><br><br><br>
-      <br><br><br><br>
-      <br><br><br><br>
-      <br><br><br><br>
-  <div>
+      <td>
+        <input style="width:45% "  type="text" name="objet" class="zonetext">
+      </td>
+    </tr>
 
-    <div style="background-color:white;">
+  </table>
+</div>
+<br>
 
-      <fieldset style="border-width:0.5px;border-color:#9fc5f8;">
-        <legend style="color:#b626c3; "><b>MESSAGE</b> </legend>
-        <textarea rows="8"  style="border:0px;" name="message">
+<div>
+
+  <div style="background-color:white;margin-top:20%;margin-left:5px;">
+
+    <fieldset style="margin-top:-40px;border-width:0.5px;width:1340px;border-color:#9fc5f8;margin-left:20px;">
+      <legend style="color:#b626c3; "><b>MESSAGE</b> </legend>
+      <textarea rows="8"  style="width:1330px;border:0px;" cols="170" name="message" form="usrform">
 </textarea>
+  </fieldset>
+  <br>
+  <div >
+    <table style="width:100%; border:collapse;margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 5px; " id="cssTable" cellpadding=0 align="left" border=0 cellspacing=0>
 
-    </fieldset>
-    </div>
-    <br>
-    <div >
-      <table style="width:100%; border:collapse;margin-top: 0px; line-height: 5px; " id="cssTable" cellpadding=0 align="left" border=0 cellspacing=0>
-        <tr>
-          <td width="30%">
-            <input  style="border:0px;"  type="text" name="nom" class="zonetext">
-          </td>
-          <td width="25%">
-            <a action="" style="align:right"><img  src="assets/images/boutonjoindre.png" height="50" width="162"  /></a>
-          </td>
-          <td width="25%">
-            <label></label>
-          </td>
-          <td width="25%">
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div align="right">
-      <a action="" style="align:right"><img src="assets/images/boutonenvoyez.png" height="50" width="162"  /></a>
-    </div>
+      <tr>
+        <td width="30%">
+          <input  style="border:0px;"  type="text" name="nom" class="zonetext">
+        </td>
+        <td>
+          <a action="" style="align:right"><img  src="assets/images/boutonjoindre.png" height="50" width="162"  /></a>
+        </td>
+        <td>
+          <label></label>
+        </td>
+        <td>
+        </td>
+      </tr>
+
+
+
+    </table>
   </div>
 
+</div>
+  <a routerLink="" style="align:right"><img src="assets/images/boutonenvoyez.png" height="50" width="162"  /></a>

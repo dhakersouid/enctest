@@ -1,0 +1,87 @@
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+<body style="margin-left:45px;margin-right:45px;">
+
+<div>
+
+
+
+  <div style="background-color:white;padding:15px;"><br>
+    <div style="background-color:#94a8cd;padding:5px;">
+
+        <br>
+      <h4 style="color:white; font-size:17px;"><b style="color:#b626c3;font-size:17px ;">Vos sinistres à ce jour : </b></h4>
+
+      <br>
+    </div>
+    <br>
+    <div style="background-color:white;border:1px solid black;padding:5px;">
+      <p>
+        <br>
+        <strong><h1 style="color:white ;color: #95a7cb; font-size:17px;">Vous n'avez pas encore fait de déclaration de sinistre sur Brokins.</h1></strong>
+
+      </p>
+    </div><br>
+    <div class="two" style="border:0.25px solid black;width:99.5%;height:2%;margin-left:0%;padding:5px;">
+        <h6  class="two"style="margin-top:-1%;color:black;"></h6>
+
+    </div>
+    <br>
+    <div style="background-color:white;border:1px solid black;padding:5px;">
+        <br>
+        <b style="color:#b626c3;">Formulaire de déclaration de sinistre : </b>
+      <h4 style="color:#95a7cb;">Vous avez eu un sinistre, Brokins prend en charge votre déclaration pour la transmettre à votre assureur le plus rapidement possible.
+      <br><br>Merci de remplir tous les champs afin que votre déclaration soit la plus complète et la plus claire possible. Une déclaration détaillée a plus
+      de chances d'être traitée rapidement. N'hésitez pas à prendre des<br><br> photos, vous pouvez également joindre un document.</h4>
+
+    </div>
+    <br>
+    <div style="background-color:white;border:0px solid black;padding:5px;">
+      <select>
+        <option value="volvo">Contrat Responsabilité Civile</option>
+        <option value="saab">Contrat Perte d'exploitation</option>
+      </select>
+    </div>
+    <div>
+      <br><br>
+
+      <label  style="color:#6a89b9;"for="nom" >Date d'arrêt de votre activité : <b style="color:#b626c3;">*</b></label>
+      <table>
+        <tr>
+          <br><br><td> <input  type="date" id="nom" /></td>
+          <td><img style="width:30px;height:30px;" src="Images/calendar.png"/></td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <div style="background-color:white;">
+      <fieldset style="border-width:0.5px;border-color:#9fc5f8;">
+        <legend style="color:#b626c3; "><b>PRECISIONS CONCERNANT LE SINISTRE</b> </legend>
+        <textarea rows="8"  style="width:90%;border:0px;" cols="170" name="message" form="usrform">
+</textarea>
+
+    <br><br>
+    <div style="background-color:white;">
+      <fieldset style="border-width:0.5px;border-color:#9fc5f8;">
+        <legend style="color:#b626c3; "><b>PRECISIONS CONCERNANT LES DEGATS </b> </legend>
+        <textarea rows="8"  style="width:90%;border:0px;" cols="170" name="message" form="usrform">
+</textarea>
+    <p style="color:#95a7cb;font-size:17px;">Pensez à joindre toute pièce que vous jugerez utile au traitement de votre dossier</p>
+  <br><br>
+  <table>
+    <tr>
+      <form method="post"action="reception.php" enctype="multipart/form-data">
+        <td style="height:40%"><input id="nom" /></td>
+        <td><input  width="127" height="32px"  id="image" type="image" alt="Connexion"
+                   src="assets/omages/boutonjoindre.png" /><br></td>
+        <td><label  style="color:#b626c3;"for="nom" ><b><h2>Document Preuve pour Résiliation<h2>
+
+    <tr>
+      <td> <input style="width:127px;height:32px; " id="image" type="image" alt="Connexion"
+                  src="assets/images/boutonvalidez.png"/>     </td>
+    </tr>
+    <table>
+

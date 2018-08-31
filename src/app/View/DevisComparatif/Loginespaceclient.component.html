@@ -1,11 +1,11 @@
 <meta charset="utf-8">
 <br>
 <div style="text-align:left; background-color:#95a7cb;">
-  <a routerLink="/" ><img width="127" height="32" src="assets/images/boutonretour.png" /></a>
+  <a routerLink="/"><img width="127" height="32" src="assets/images/boutonretour.png" /></a>
 </div>
 
 <br>
-<div style="background-color:white;padding:5px;" class="boxed"  >
+<div style="background-color:white;padding:5px;" class="boxed">
   <p style="margin-left:10px;">
     <label class="stylemove" style=" font-size:17px;">Connexion Espace Client – www.brokins.fr</label><br><br>
     <label class="stylebleu">Si vous êtes déjà client Brokins,  vous devez vous munir de votre adresse mail ou de votre numéro d'identifiant Brokins  (composé de X caractères) et du mot de passe que vous avez reçu par mail et par SMS lors de votre souscription à un contrat d'assurance. </label><br><br>
@@ -16,51 +16,54 @@
 
 </div>
 <br>
-<form (ngSubmit)="loginUser(event)" #event="ngForm">
-  <div >
-    <table style="width:100%"  cellpadding=2 align="left" cellpadding=0>
+<form name="form" (ngSubmit)="login()" #f="ngForm" novalidate>
+  <div>
+    <table style="width:100%" cellpadding=2 align="left" cellpadding=0>
 
       <tr>
         <td width="45%">
-          <label class="stylebleu" style="color:white;">ADRESSE EMAIL :</label>
+          <label class="stylebleu" style="color:white;" >ADRESSE EMAIL :</label>
         </td>
         <td width="10%">
 
         </td>
-        <td width="45%" >
-          <label class="stylebleu" style="color:white;">Numéro d'identifiant Brokins :</label>
+        <td width="45%">
+          <label class="stylebleu" style="color:white;" >Numéro d'identifiant Brokins :</label>
         </td>
-      </tr>
-
-
-      <tr>	<td></td>
       </tr>
 
 
       <tr>
-        <td >
-          <input type="text" name="mail" width="50 px" ngModel>
+        <td></td>
+      </tr>
+
+
+      <tr>
+        <td>
+
+          <input type="text" autocomplete="off" class="form-control" name="username" [(ngModel)]="model.username" #username="ngModel" required/>
+
         </td>
         <td align="center">
           <label class="stylebleu" style="color:white;">OU</label>
         </td>
-        <td >
-          <input type="text" name="nomentreprise" width="50 px" ngModel>
+        <td>
+          <input type="text" autocomplete="off" />
         </td>
       </tr>
     </table>
   </div>
   <br><br>
-  <div >
+  <div>
     <table style="width:100%" id="cssTable" cellpadding=3 align="left" cellpadding="0">
       <tr>
-        <td  width="60%">
+        <td width="60%">
           <label class="stylebleu" style="color:white;">Mot de Passe :</label>
         </td>
         <td>
 
         </td>
-        <td  width="10%">
+        <td width="10%">
           <a routerLink="/ECpwdoublie"><label class="stylebleu" style="color:white;">Mot de passe oublié?</label></a>
         </td>
       </tr>
@@ -68,21 +71,23 @@
 
       <tr>
 
-        <td  width="30%">
-          <input type="text" name="motdepasse" width="50 px">
+        <td width="30%">
+          <input style="width: 75%" class="form-control" name="password" [(ngModel)]="model.password" #password="ngModel" required />
         </td>
-        <td >
+        <td>
 
         </td>
-        <td >
+        <td>
           <div align="left" style="background-color:#94a8cd;">
-            <button type="submit" style="text-align:right"><img width="127" height="32" src="assets/images/boutonconnexion.png" /></button>
+            <button type="submit" class="btn blue btn-block uppercase" id="_submit" name="_submit" value="connexion"> <img width="127" height="32" src="assets/images/boutonconnexion.png" />
+          </button>
           </div>
         </td>
       </tr>
     </table>
   </div>
   <br>
+
   <table>
     <tr>
       <td style="vertical-align:top;">
@@ -92,7 +97,7 @@
         </label>
       </td>
       <td style="vertical-align:center;">
-        <label class="stylebleu" style="color:white;">Mémoriser l'adresse mail ou le numéro d'identifiant</label>
+        <label class="stylebleu" style="color:white;" id="remember_me" name="_remember_me">Mémoriser l'adresse mail ou le numéro d'identifiant</label>
       </td>
     </tr>
     <tr>
@@ -108,7 +113,7 @@
         </label>
       </td>
       <td style="vertical-align:center;">
-        <label class="stylebleu" style="color:white;">Mémoriser le mot de passe</label>
+        <label class="stylebleu" id="remember_me" name="_remember_me" style="color:white;">Mémoriser le mot de passe</label>
       </td>
     </tr>
   </table>

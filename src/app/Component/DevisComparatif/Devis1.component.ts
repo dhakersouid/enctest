@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MatChipInputEvent } from '@angular/material';
 
 @Component({
     selector: 'devisproduit',

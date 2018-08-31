@@ -26,21 +26,19 @@ import { GCUComponent} from './Component/Conseil/GCU.component';
 import { ContactComponent} from './Component/Conseil/Contact.component';
 import { MentionlegaleComponent} from './Component/Conseil/Mentionlegale.component';
 import {ParlezavosamisComponent} from './Component/Conseil/Parlezavosamis.component';
-<<<<<<< HEAD
 import {ConseiltoutesquestionsComponent} from './Component/Conseil/Conseiltoutesquestions.component';
-=======
 import { ConseilComponent } from './Component/Conseil/Conseil.component';
 import { AssuranceComponent } from './Component/Conseil/Vosassurance.component';
 import { RecevoirconseilComponent } from './Component/Conseil/Recevoirconseil.component';
 import { FelicitationRecevoirConseilComponent } from './Component/Conseil/FelicitationRecevoirConseil.component';
 import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
-<<<<<<< HEAD
-
->>>>>>> e9dd48f70712194c7926484b306270af608136b2
-=======
 import { ConseilDefinitionComponent } from './Component/Conseil/ConseilDefinition.component';
 import { RecevoirDefinitionComponent } from './Component/Conseil/RecevoirDefinition.component';
->>>>>>> c56f9946a6bc42bf023979bf40647e5b71c1ccbd
+import { AuthGuard } from './_guard/auth.guard';
+
+import { DeclarationsinistreComponent } from './Component/EspaceClient/Declarationsinistre.component';
+import { PartenaireassureurComponent } from './Component/Conseil/Partenaireassureur.component';
+import { ModalitepaiementComponent } from './Component/Conseil/Modalitepaiement.component';
 
 const appRoutes: Routes = [
     {
@@ -106,7 +104,8 @@ const appRoutes: Routes = [
     },
     {
         path: 'espaceclient',
-        component: EspaceClientComponent
+        component: EspaceClientComponent,
+        canActivate: [AuthGuard]
 
     },
     {
@@ -158,14 +157,10 @@ const appRoutes: Routes = [
     component: ParlezavosamisComponent
     },
     {
-<<<<<<< HEAD
     path: 'question',
     component: ConseiltoutesquestionsComponent
     },
-
-
-
-=======
+    {
         path: 'conseil',
         component: ConseilComponent
     },
@@ -185,10 +180,6 @@ const appRoutes: Routes = [
         path: 'commentaire',
         component: CommentaireComponent
     },
-<<<<<<< HEAD
->>>>>>> e9dd48f70712194c7926484b306270af608136b2
-
-=======
     {
         path: 'conseildefinitionpj',
         component: ConseilDefinitionComponent
@@ -197,6 +188,18 @@ const appRoutes: Routes = [
         path: 'recevoirdefinition',
         component: RecevoirDefinitionComponent
     },
->>>>>>> c56f9946a6bc42bf023979bf40647e5b71c1ccbd
+    {
+        path: 'sinistre',
+        component: DeclarationsinistreComponent
+    },
+    {
+        path: 'partenaire',
+        component: PartenaireassureurComponent
+    },
+    {
+        path: 'modalite',
+        component: ModalitepaiementComponent
+    },
+
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

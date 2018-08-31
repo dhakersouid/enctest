@@ -1,0 +1,16 @@
+.stylebleu {
+  font-family:Lato Bold; font-size:15; font-weight:Bold; color:#94a8cd; text-align:left;
+}
+.stylemove {
+  font-family:Lato Bold; font-size:15; font-weight:Bold; color:#b626c3; text-align:left;
+}
+.boxed {
+  border: 0px solid black ;
+  color: white;
+}
+h3{
+  margin-left:10px;
+}
+p{
+  margin-left:15px;
+}

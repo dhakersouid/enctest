@@ -1,0 +1,38 @@
+.formtext {
+  font-family:Lato Bold; font-size:18; font-weight:Regular; color:white;
+}
+td
+{
+  height: 50px;
+  width:50px;
+
+}
+
+#cssTable td
+{
+  text-align:left;
+  vertical-align:left;
+}
+input{
+  width : 100%;
+  line-height: 2em;
+  border: 1px black solid;
+}
+
+.boxed {
+  border: 0px solid black ;
+  border: 0px solid black ;
+  color: white;
+}
+.txt1, .txt2 {
+  width:900px;
+  float:left;
+}
+fieldset{
+  border : 1px solid black;
+  background-color:white;
+}
+legend{
+  font-family:Lato Bold; font-size:22; font-weight:bold; color:#446ba8;
+  background-color : white;
+}

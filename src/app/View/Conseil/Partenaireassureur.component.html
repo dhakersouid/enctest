@@ -1,0 +1,135 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+</script>
+<script>
+  $(document).ready(function() {
+    function close_accordion_section() {
+      $('.accordion .accordion-section-title').removeClass('active');
+      $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+    }
+    $('.accordion-section-title').click(function(e) {
+// Grab current anchor value
+      var currentAttrValue = $(this).attr('href');
+      if($(e.target).is('.active')) {
+        close_accordion_section();
+      }else {
+        close_accordion_section();
+// Add active class to section title
+        $(this).addClass('active');
+// Open up the hidden content panel
+        $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+      }
+      e.preventDefault();
+    });
+  });
+
+  $(document).ready(function() {
+    function close_accordion_section() {
+// Close everything up
+    }
+    $('.accordion-section-title').click(function() {
+// Grab current anchor value
+      var currentAttrValue = $(this).attr('href');
+// Open and close here
+    });
+  });
+
+  $('.accordion-section-title').click(function() {
+// Grab current anchor value
+    var currentAttrValue = $(this).attr('href');
+    $('.accordion .accordion-section-title').removeClass('active');
+    $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+    $(this).addClass('active');
+    $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+  });
+
+  function close_accordion_section() {
+    $('.accordion .accordion-section-title').removeClass('active');
+    $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+  }
+</script>
+
+
+<br>
+<div align="right" style="margin-right:15px;">
+  <a hrefhref="/" style="align:right"><img src="assets/images/boutonretouraccueil.png" /></a>
+</div>
+<br>
+
+<div style="margin-left:60px; margin-right:20px; background-color:white; " class="boxed"  >
+
+  <p class="stylemove" >Nos nombreux fournisseurs d'assurances</p>
+    <HR align=center size=1 width="99%">
+
+    <HR align=center size=1 width="99%">
+  <p >
+  <p style="font-family:Lato Bold; font-size:22; font-weight:Regular; margin-left:10px; ">
+    <label class="stylebleu">Brokins, le courtier assurance des </label>
+    <label class="stylemove">Professionnels et Entreprises </label>
+    <label class="stylebleu">, est une société complètement indépendante des compagnies d'assurance, des mutuelles et des courtiers-grossistes. </label>
+  </p>
+  <p >
+  <p style="font-family:Lato Bold; font-size:22; font-weight:Regular; margin-left:10px; ">
+    <label class="stylebleu">Le service de génération de devis assurance, réalisé par</label>
+    <a href="#" class="stylemove">comparaison </a>
+    <label class="stylebleu">des différents produits d'assurances, est possible grâce aux différents accords de distribution signés avec nos fournisseurs et dont certains d'entre eux ne vendent pas directement aux clients.</label>
+  </p>
+  <p >
+  <p style="font-family:Lato Bold; font-size:22; font-weight:Regular; margin-left:10px; ">
+    <label class="stylebleu">Brokins SAS s'évertuera à signer avec le plus grands nombres d'assureurs, mutuelles, courtiers-grossistes, spécialisés en assurance Professionnel et Entreprise, afin de vous fournir le service de  </label>
+    <a href="#" class="stylemove">comparaison </a>    <label class="stylebleu">le plus complet qui soit.</label>
+  </p>
+  <p style="font-family:Lato Bold; font-size:22; font-weight:Regular; margin-left:10px; "><label class="stylebleu">Cliquez sur un logo pour consulter la fiche descriptive du fournisseur.</label></p>
+</div>
+
+<div style="margin-left:60px; margin-right:20px;">
+
+  <br>
+
+
+  <div class="accordion">
+    <div class="accordion-section">
+      <label class="accordion-section-title" href="#accordion-1">Assurance Responsabilité Professionnelle</label>
+      <div id="accordion-1" class="accordion-section-content">
+        <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+      </div><!--end .accordion-section-content-->
+    </div><!--end .accordion-section-->
+  </div>
+  <div class="accordion">
+    <div class="accordion-section">
+      <label class="accordion-section-title" href="#accordion-2">Assurance Santé</label>
+      <div id="accordion-2" class="accordion-section-content">
+        <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+      </div><!--end .accordion-section-content-->
+    </div><!--end .accordion-section-->
+  </div>
+  <div class="accordion">
+    <div class="accordion-section">
+      <label class="accordion-section-title" href="#accordion-3">Assurance Multirisque Professsionelle</label>
+      <div id="accordion-3" class="accordion-section-content">
+        <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+      </div><!--end .accordion-section-content-->
+    </div><!--end .accordion-section-->
+  </div>
+  <div class="accordion">
+    <div class="accordion-section">
+      <label class="accordion-section-title"  href="#accordion-4">Assurance Auto</label>
+      <div id="accordion-4" class="accordion-section-content">
+        <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+      </div><!--end .accordion-section-content-->
+    </div><!--end .accordion-section-->
+  </div><div class="accordion">
+  <div class="accordion-section">
+    <label class="accordion-section-title" href="#accordion-5">Assurance 2 roues (scooter, moto)</label>
+    <div id="accordion-5" class="accordion-section-content">
+      <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+    </div><!--end .accordion-section-content-->
+  </div><!--end .accordion-section-->
+</div>
+</div>

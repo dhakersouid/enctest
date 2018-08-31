@@ -1,3 +1,4 @@
+
 <meta charset="utf-8">
 <div style="background-color:white;" class="boxed">
     <br>
@@ -21,7 +22,8 @@
                 </td>
                 <td width="5%"></td>
                 <td colspan=2  width="60%">
-                    <input style="border:0px;" type="text" name="siren" placeholder="">
+                    <input style="border:0px;" [value]="siren" name="siren" type="text" name=""  ng-minlength="9" [(ngModel)]="siren" [ngModelOptions]="{standalone: true}" (keyup)="search()" />
+                    <label>{{errormsg}}</label>
                 </td>
             </tr>
             <tr style="height:10%">
@@ -37,7 +39,7 @@
                 </td>
                 <td width="5%"></td>
                 <td colspan=2 width="60%">
-                    <input style="border:0px;" type="text" name="ape" placeholder="">
+                    <input style="border:0px;" type="text" name="ape" placeholder="" [(ngModel)]="formulaire.code_ape" [ngModelOptions]="{standalone: true}">
                 </td>
             </tr>
             <tr>
@@ -46,7 +48,7 @@
                 </td>
                 <td width="5%"></td>
                 <td colspan=2 width="60%">
-                    <input style="border:0px;" type="text" name="codepostal">
+                    <input style="border:0px;" type="text" name="codepostal" [(ngModel)]="formulaire.code_postal" [ngModelOptions]="{standalone: true}" >
                 </td>
             </tr>
             <tr>
@@ -55,7 +57,7 @@
                 </td>
                 <td width="5%"></td>
                 <td colspan=2 width="60%">
-                    <input style="border:0px;" type="text" name="anneecreation">
+                    <input style="border:0px;" type="text" name="anneecreation" [(ngModel)]="formulaire.annee_creation" [ngModelOptions]="{standalone: true}">
                 </td>
             </tr>
             <tr>
@@ -64,7 +66,7 @@
                 </td>
                 <td width="5%"></td>
                 <td colspan=2 width="60%">
-                    <input style="border:0px;" type="text" name="formejuridique">
+                    <input style="border:0px;" type="text" name="formejuridique" [(ngModel)]="formulaire.forme_juridique" [ngModelOptions]="{standalone: true} ">
                 </td>
             </tr>
             <tr>
@@ -73,7 +75,7 @@
                 </td>
                 <td width="5%"><a action=""><img width="32" height="32" src="assets/images/cercleinterrogation.png" /></a></td>
                 <td colspan=2 width="60%">
-                    <input style="border:0px;" type="text" name="ca">
+                    <input style="border:0px;" type="text" name="ca" [(ngModel)]="formulaire.chiffre_affaire" [ngModelOptions]="{standalone: true}">
                 </td>
             </tr>
             <tr>
@@ -81,12 +83,10 @@
                     <p class="formtext">Effectifs dans l'entreprise : <b style="color:#b626c3;"> *</b></p>
                 </td>
                 <td width="5%"><a action=""><img width="32" height="32" src="assets/images/cercleinterrogation.png" /></a></td>
-                <td colspan=2 width="60%">
-                    <select id="nbrsalaries">
-			<option value="valeur1">1</option>
-			<option value="valeur2" selected>2</option>
-			<option value="valeur3">53</option>
-		</select>
+                <td colspan=2 width="60%" style="color: black;">
+                    <select id="nbrsalaries"  style="color: black;">
+			                <option *ngFor="let effectif of effectifs" [value]="effectifs.viewValue" style="color: black;">{{effectif.viewValue}}</option>
+		            </select>
                 </td>
             </tr>
 

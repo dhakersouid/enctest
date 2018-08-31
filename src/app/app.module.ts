@@ -29,9 +29,9 @@ import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.compone
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import {GCUComponent} from './Component/Conseil/GCU.component';
-import { Http } from '@angular/http';
+import { Http, HttpModule, XHRBackend, RequestOptions } from '@angular/http';
 import {AproposComponent} from './Component/Conseil/Apropos.component';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClientModule, HttpClient, HTTP_INTERCEPTORS  } from '@angular/common/http';
 import { ContactComponent} from './Component/Conseil/Contact.component';
 import { MentionlegaleComponent} from './Component/Conseil/Mentionlegale.component';
 import {ModalitepaiementComponent} from './Component/Conseil/Modalitepaiement.component';
@@ -45,17 +45,16 @@ import { FelicitationRecevoirConseilComponent } from './Component/Conseil/Felici
 import { CommentaireComponent } from './Component/Conseil/Commentaire.component';
 import { ConseilDefinitionComponent } from './Component/Conseil/ConseilDefinition.component';
 import { RecevoirDefinitionComponent } from './Component/Conseil/RecevoirDefinition.component';
+import { Observable, of } from 'rxjs';
+import { AuthGuard } from './_guard/index';
+import { ReactiveFormsModule } from '@angular/forms';
 
-import {
-  WpApiModule,
-  WpApiLoader,
-  WpApiStaticLoader
-} from 'wp-api-angular';
-import { AuthenticationComponent } from './authentication/authentication.component';
 import { UserListComponent } from './user-list/user-list.component';
-export function WpApiLoaderFactory(http: Http) {
-  return new WpApiStaticLoader(http, 'http://envdev.brokins.fr/wp-json/wp/v2/', '');
-}
+import { LoginService } from './Services/Authentication/login.service';
+import { JwtInterceptor } from './_Helper/jwt.interceptor';
+import { fakeBackendProvider } from './_Helper/fakebackend';
+import { ErrorInterceptor } from './_Helper/error.interceptor';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
@@ -65,29 +64,25 @@ export function WpApiLoaderFactory(http: Http) {
     AlertedoublegarantieComponent, LoginespaceclientComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
-     NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
-<<<<<<< HEAD
-    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent,ConseiltoutesquestionsComponent
-=======
-    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent,
-<<<<<<< HEAD
-    RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent
->>>>>>> e9dd48f70712194c7926484b306270af608136b2
-=======
+     NouvelSituationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
+    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseiltoutesquestionsComponent,
+    ConseilComponent, AssuranceComponent,
     RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent, ConseilDefinitionComponent,
     RecevoirDefinitionComponent
->>>>>>> c56f9946a6bc42bf023979bf40647e5b71c1ccbd
+
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
-    WpApiModule.forRoot({ // <---
-      provide: WpApiLoader,
-      useFactory: (WpApiLoaderFactory),
-      deps: [Http]
-    })
+    BrowserModule, ReactiveFormsModule, HttpModule, BrowserAnimationsModule
   ],
   providers: [
-    { provide: APP_BASE_HREF, useValue: '/' }
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: JwtInterceptor,
+      multi: true
+    },
+    AuthGuard,
+    fakeBackendProvider
   ],
   bootstrap: [AppComponent]
 })
