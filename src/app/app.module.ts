@@ -1,3 +1,5 @@
+import { PartenaireassureurComponent } from './Component/Conseil/Partenaireassureur.component';
+import { DeclarationsinistreComponent } from './Component/EspaceClient/Declarationsinistre.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -27,7 +29,6 @@ import { RenonciationComponent } from './Component/EspaceClient/Renonciation.com
 import { UploadComponent } from './Component/EspaceClient/Upload.component';
 import { DesabonnerComponent } from './Component/EspaceClient/Desabonner.component';
 import { NouvelSituationComponent } from './Component/EspaceClient/NouvelSituation.component';
-import {ConseiltoutesreponsesComponent} from './Component/Conseil/Conseiltoutesreponses.component';
 import { LoginespaceclientComponent } from './Component/DevisComparatif/Loginespaceclient.component';
 import {GCUComponent} from './Component/Conseil/GCU.component';
 import { Http, HttpModule, XHRBackend, RequestOptions } from '@angular/http';
@@ -60,25 +61,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
     , RecevoirTarifComponent, Devis4Component, Devis6Component, ResiliationComponent,
+
     FelicitationmdploginECComponent, FelicitationsouscriptionComponent, Devis5Component,
     AlertedoublegarantieComponent, LoginespaceclientComponent,
     MdpoublieComponent, ResiliationlaposteComponent, EspaceClientComponent, EcDemandesComponent,
     ECpaiementprimeComponent, RenonciationComponent, UploadComponent, DesabonnerComponent,
-<<<<<<< HEAD
      NouvelSituationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
     MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseiltoutesquestionsComponent,
     ConseilComponent, AssuranceComponent,
     RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent, ConseilDefinitionComponent,
-    RecevoirDefinitionComponent
+    RecevoirDefinitionComponent, DeclarationsinistreComponent, PartenaireassureurComponent,
 
-=======
-     NouvelSituationComponent, AuthenticationComponent, UserListComponent, AproposComponent, GCUComponent, ContactComponent,
-    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseiltoutesquestionsComponent,
-    MentionlegaleComponent, ModalitepaiementComponent, ParlezavosamisComponent, ConseilComponent, AssuranceComponent,
-    RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent,
-    RecevoirconseilComponent, FelicitationRecevoirConseilComponent, CommentaireComponent, ConseilDefinitionComponent,
-    RecevoirDefinitionComponent,ConseiltoutesreponsesComponent
->>>>>>> 2a80bafec3045e7bdb2f2d93bc10e64724482102
+
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
