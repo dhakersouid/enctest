@@ -6,4 +6,8 @@ export class Formulaire {
     forme_juridique: string;
     chiffre_affaire: string;
     effectif: string;
+    siret: string;
+    nom_entreprise: string;
+    adresse: string;
+    complement_adresse: string;
 }

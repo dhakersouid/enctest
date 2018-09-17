@@ -12,7 +12,7 @@
     <br>
 </div>
 
-<form style="">
+<form name="form" (ngSubmit)="obtenirDevisComparatif()" #f="ngForm" novalidate>
     <div>
         <table style="width:100%" id="cssTable" cellpadding=0 border=0>
 
@@ -93,6 +93,7 @@
 
         </table>
         <br><br>
-        <a routerLink="/devisPJcomparatif"><img style="width:250px;" src="assets/images/boutonobtenirundevis.png" /></a>
-    </div>
+        <button type="submit" class="btn blue btn-block uppercase" id="_submit" name="_submit" value="connexion"> <img style="width:250px;" src="assets/images/boutonobtenirundevis.png" />
+          </button>
+         </div>
 </form>

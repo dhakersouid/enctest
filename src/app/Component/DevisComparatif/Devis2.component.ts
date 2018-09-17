@@ -7,6 +7,7 @@ import { map } from 'rxjs/operators';
 import { Subject } from 'rxjs/Subject';
 import { Formulaire } from '../../Models/formulaire';
 import { MatSelectModule } from '@angular/material/select';
+
 @Component({
     selector: 'devisPJentreprise',
     templateUrl: '../../View/DevisComparatif/Devis2.component.html',
@@ -22,10 +23,12 @@ export class Devis2Component implements OnInit {
     res: any;
     results: Object;
     public errormsg;
-    constructor( private httpclient: HttpClient , private formulaireservice: FormulaireService ) {
+    constructor(private route: ActivatedRoute,
+        private router: Router, private httpclient: HttpClient , private formulaireservice: FormulaireService ) {
         this.errormsg = '';
     }
     ngOnInit() {
+        localStorage.removeItem('informationUser');
         this.effectifs = [
             { value: '1', viewValue: '1' },
             { value: '20', viewValue: '20' },
@@ -38,11 +41,8 @@ export class Devis2Component implements OnInit {
     search() {
         if (this.siren.length === 9) {
             this.formulaireservice.searchInfo(this.siren)
-                .subscribe(data => this.getData(data),
+                .subscribe(data => {this.getData(data); this.saveData(data); },
                     error => this.errormsg = error
-                /*this.showData(data);
-                this.res = data;
-                console.log(data.siege_social.departement_commune_siege);*/
             );
         }
 }
@@ -59,13 +59,12 @@ export class Devis2Component implements OnInit {
        this.formulaire.code_postal = data.siege_social.code_postal;
        this.formulaire.forme_juridique = data.siege_social.libelle_nature_juridique_entreprise;
        this.formulaire.chiffre_affaire = data.tranche_chiffre_affaire_entreprise_esa;
-      // this.nbreffectif = data.siege_social.tranche_effectif_salarie;
-
-        //localStorage.setItem('siren', JSON.parse(data));
-        //this.res = localStorage.getItem('siren');
-        //console.log(data.siege_social.departement_commune_siege);
-
-
+    }
+    obtenirDevisComparatif() {
+        this.router.navigate(['devisPJcomparatif']);
+    }
+    saveData(data) {
+        localStorage.setItem('informationUser', JSON.stringify(data));
     }
 }
 

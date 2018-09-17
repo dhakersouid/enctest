@@ -1,3 +1,4 @@
+import { CustExtBrowserXhr } from './Services/Authentication/CustExtBrowserXhr';
 import { PartenaireassureurComponent } from './Component/Conseil/Partenaireassureur.component';
 import { DeclarationsinistreComponent } from './Component/EspaceClient/Declarationsinistre.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -57,6 +58,7 @@ import { JwtInterceptor } from './_Helper/jwt.interceptor';
 import { fakeBackendProvider } from './_Helper/fakebackend';
 import { ErrorInterceptor } from './_Helper/error.interceptor';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserXhr } from '@angular/http';
 @NgModule({
   declarations: [
     AppComponent, AccueilComponent, headerComponent, footerComponent, Devis1Component, Devis2Component, Devis3Component
@@ -76,9 +78,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule, FormsModule, routing, HttpClientModule, MatChipsModule, MatFormFieldModule, MatInputModule,
-    BrowserModule, ReactiveFormsModule, HttpModule, BrowserAnimationsModule
+     ReactiveFormsModule, HttpModule, BrowserAnimationsModule,
   ],
   providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: JwtInterceptor,
+      multi: true
+    },
     {
       provide: HTTP_INTERCEPTORS,
       useClass: JwtInterceptor,

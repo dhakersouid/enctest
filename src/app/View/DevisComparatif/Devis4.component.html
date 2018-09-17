@@ -99,7 +99,7 @@
                         <p class="stylebleu"><b>Nom Entreprise :</b><b class="stylemove">*</b></p>
                     </td>
                     <td>
-                        <input type="text" style="margin-left:0px;" name="nomentreprise">
+                        <input style="margin-right:20px;" type="text" name="nomentreprise" [(ngModel)]="formulaire.nom_entreprise" [ngModelOptions]="{standalone: true}">
                     </td>
                     <td>
                     </td>
@@ -107,7 +107,7 @@
                         <p class="stylebleu"><b>SIRET :</b></p>
                     </td>
                     <td>
-                        <input type="text" name="siret">
+                        <input style="margin-right:20px;" type="text" name="siret" [(ngModel)]="formulaire.siret" [ngModelOptions]="{standalone: true}">
                     </td>
                     <td>
                     </td>
@@ -117,7 +117,7 @@
                         <p class="stylebleu"><b>Adresse :</b><b class="stylemove">*</b></p>
                     </td>
                     <td>
-                        <input type="text" style="margin-left:0px;" name="adresseentreprise" placeholder="">
+                        <input style="margin-right:20px;" type="text" name="adresseentreprise" [(ngModel)]="formulaire.adresse" [ngModelOptions]="{standalone: true}">
                     </td>
                     <td>
                     </td>
@@ -125,7 +125,7 @@
                         <p class="stylebleu"><b>Code APE :</b></p>
                     </td>
                     <td>
-                        <input type="text" name="codeape" placeholder="">
+                        <input style="margin-right:20px;" type="text" name="codeape" [(ngModel)]="formulaire.code_ape" [ngModelOptions]="{standalone: true}">
                     </td>
                     <td>
                     </td>
@@ -144,7 +144,7 @@
                         <p class="stylebleu"><b>Code Postal :</b><b class="stylemove">*</b></p>
                     </td>
                     <td>
-                        <input type="text" name="codepostal" placeholder="">
+                        <input style="margin-right:20px;" type="text" name="codepostal" [(ngModel)]="formulaire.code_postal" [ngModelOptions]="{standalone: true}">
                     </td>
                     <td>
                     </td>

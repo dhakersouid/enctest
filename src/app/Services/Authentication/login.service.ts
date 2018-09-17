@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpParams, HttpHeaders } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { AppSettings } from '../../app.setting';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Router } from '@angular/router';
-
+import 'rxjs/add/operator/map';
 declare var $: any;
 
 @Injectable({ providedIn: 'root' })
@@ -16,23 +16,33 @@ export class LoginService {
     }
 
     login(username: string, password: string) {
-        const formData = {
-            username: username,
-            password: password
+
+        let url = 'http://127.0.0.1:8000/api/login_check';
+        let body = new URLSearchParams();
+        body.append('_username', username);
+        body.append('_password', password);
+        const httpOptions = {
+            headers: new HttpHeaders({
+                'Content-Type': 'application/json'
+            })
         };
-        return this.http.post<any>('http://127.0.0.1:8000/api/login_check', $.param(formData))
-            .pipe(map(user => {
+        return this.http
+            .post(url, { _username: username, _password: password }, httpOptions)
+            .map(user => {
                 // login successful if there's a jwt token in the response
-                //console.log(JSON.parse(user));
-                if (user && user.token) {
-                    console.log(user);
+                if (user) {
                     // store user details and jwt token in local storage to keep user logged in between page refreshes
                     localStorage.setItem('currentUser', JSON.stringify(user));
                 }
+
                 return user;
-            }));
+            });
     }
 
+    testApi(){
+        return this.http.get('http://127.0.0.1:8000/api/api/testApi').pipe(
+            map(res => {return res || {};} ));
+    }
     logout() {
         // remove user from local storage to log user out
         localStorage.removeItem('currentUser');

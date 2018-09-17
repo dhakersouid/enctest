@@ -26,6 +26,7 @@ export class FormulaireService {
     }
 
     errorHandler(error: HttpErrorResponse) {
+        localStorage.removeItem('informationUser');
         return Observable.throw(error.message || 'Siren introuvable');
     }
 

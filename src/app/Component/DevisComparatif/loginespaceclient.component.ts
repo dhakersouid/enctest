@@ -6,6 +6,7 @@ import { first } from 'rxjs/operators';
 import { User } from '../../Models/user';
 
 import { LoginService } from '../../Services/Authentication/login.service';
+import { HttpClient } from "@angular/common/http";
 @Component({ templateUrl: '../../View/DevisComparatif/Loginespaceclient.component.html',
   styleUrls: ['../../View/DevisComparatif/Loginespaceclient.component.css'] })
 
